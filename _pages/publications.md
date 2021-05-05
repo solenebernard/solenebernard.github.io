@@ -27,55 +27,58 @@ title: "Publications"
   </a>
 {% endif %}
 
+
 <!-- See also https://github.com/inukshuk/jekyll-scholar to customize your references -->
 
 This is a mock example: the references are not correct!
 
 <!-- Preprints -->
-{% capture counter_preprints %}{% bibliography_count --query @unpublished %}{% endcapture %}
+<!-- {% capture counter_preprints %}{% bibliography_count --query @unpublished %}{% endcapture %}
 {% if counter_preprints != "0" %}
   <h2>Preprints</h2>
   {% bibliography --query @unpublished %}
-{% endif %}
+{% endif %} -->
 
 <!-- Journal articles-->
-{% capture counter_book %}{% bibliography_count --query @book %}{% endcapture %}
+<!-- {% capture counter_book %}{% bibliography_count --query @book %}{% endcapture %}
 {% if counter_book != "0" %}
   <h2>Books</h2>
   {% bibliography --query @book %}
-{% endif %}
+{% endif %} -->
 
 <!-- Journal articles-->
-{% capture counter_article %}{% bibliography_count --query @article %}{% endcapture %}
+<!-- {% capture counter_article %}{% bibliography_count --query @article %}{% endcapture %}
 {% if counter_article != "0" %}
   <h2>Journal articles</h2>
   {% bibliography --query @article %}
-{% endif %}
+{% endif %} -->
 
 <!-- Conference papers -->
-{% capture counter_inproceedings %}{% bibliography_count --query @inproceedings %}{% endcapture %}
+<!-- {% capture counter_inproceedings %}{% bibliography_count --query @inproceedings %}{% endcapture %}
 {% if counter_inproceedings != "0" %}
   <h2>Conference papers</h2>
   {% bibliography --query @inproceedings %}
-{% endif %}
+{% endif %} -->
 
 <!-- Workshop papers -->
-{% capture counter_workshop %}{% bibliography_count --query @misc[keywords=workshop] %}{% endcapture %}
+<!-- {% capture counter_workshop %}{% bibliography_count --query @misc[keywords=workshop] %}{% endcapture %}
 {% if counter_workshop != "0" %}
   <h2>Workshop papers</h2>
   {% bibliography --query @misc[keywords=workshop] %}
-{% endif %}
+{% endif %} -->
 
 <!-- Thesis -->
-{% capture counter_thesis %}{% bibliography_count --query @thesis %}{% endcapture %}
+<!-- {% capture counter_thesis %}{% bibliography_count --query @thesis %}{% endcapture %}
 {% if counter_thesis != "0" %}
   <h2>Thesis</h2>
   {% bibliography --query @thesis %}
-{% endif %}
+{% endif %} -->
 
 <!-- Popularization -->
-{% capture counter_popularization %}{% bibliography_count --query @misc[keywords=popularization] %}{% endcapture %}
+<!-- {% capture counter_popularization %}{% bibliography_count --query @misc[keywords=popularization] %}{% endcapture %}
 {% if counter_popularization != "0" %}
   <h2>Popularization</h2>
   {% bibliography --query @misc[keywords=popularization] %}
-{% endif %}
+{% endif %} -->
+
+
