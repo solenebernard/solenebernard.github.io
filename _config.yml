@@ -18,12 +18,12 @@ locale: "en-US"
 title: "Site Title"
 title_separator: "-"
 subtitle: "subtitle" # site tagline that appears below site title in masthead
-name: "FirstName LastName"
-description: "Description"
+name: "Solène Bernard"
+description: "PhD student in steganography"
 github: [metadata]
-url: "https://cristal-sigma.github.io"
+url: "https://solenebernard.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "CRIStAL-Sigma/cristal-sigma.github.io"
+repository: "solenebernard/solenebernard.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -97,13 +97,13 @@ analytics:
 # _includes/author-profile.html
 # _includes/author-profile-custom-links.html
 author:
-  name: "FirstName LastName"
+  name: "Solène Bernard"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My short bio"
+  bio: "PhD student in steganography"
   location: "Lille, France"
-  email: "my.name@email.com"
+  email: "solene.bernard@univ-lille.fr"
   github: "CRIStAL-Sigma"
-  webpage: "https://cristal-sigma.github.io"
+  webpage: "https://solenebernard.github.io"
   # Academic profiles
   # To make logo+link appear in author_profile on the left side of the page
   # - fill the corresponding field
@@ -181,7 +181,7 @@ author:
     # uncomment url to make link appear
     - label: "Email" # used above
       icon: "fas fa-fw fa-envelope"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:solenebernard@univ-lille.fr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://<webpage-link>"
