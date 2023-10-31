@@ -14,15 +14,15 @@ menu:
         - name: Papers
           url: papers/
           weight: 1
-        - name: Courses
+        - name: Blog
           url: courses/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+        # - name: Data
+        #   url: data/
+        #   weight: 3 
+        # - name: Newsletter
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
 
 params:
     description: "I am a Professor of Subject at the University of Place. My research covers various topics.
@@ -59,7 +59,7 @@ consequat."
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
+            - name: Blog
               url: courses/
             # - name: Data
             #   url: data/
