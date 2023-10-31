@@ -55,16 +55,16 @@ consequat."
           imageUrl: "bio-photo.jpg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
+          imageTitle: Solène Bernard
           buttons:
             - name: Papers
               url: papers/
             - name: Courses
               url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+            # - name: Data
+            #   url: data/
+            # - name: Newsletter
+            #   url: https://pmichaillat.substack.com
             - name: Tags
               url: tags/
             - name: Archive
@@ -73,21 +73,21 @@ consequat."
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:slnbrnd@gmail.com
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
+        # - name: Office Hours
+        #   url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=fYN4l7AAAAAJ&hl=en
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://github.com/solenebernard
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: Twitter
+        #   url: https://twitter.com/pmichaillat
 
     assets:
         disableHLJS: true
@@ -96,7 +96,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Solène Bernard"
       icon: favicon.ico
       iconHeight: 18
 
