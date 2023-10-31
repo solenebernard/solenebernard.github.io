@@ -6,7 +6,7 @@ author: "Solène Bernard"
 description: "Very basic introduction of steganography principle" 
 summary: "This graduate course presents various methods and results." 
 cover:
-    image: "course1.png"
+    image: "partitionkey.png"
     alt: "Figure caption"
     relative: false
 showToc: true
@@ -14,6 +14,7 @@ disableAnchoredHeadings: false
 editPost:
     URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
     Text: "YouTube playlist"
+# bibliography: biblio.bib
 
 ---
 
@@ -30,7 +31,7 @@ Yours always,
 Alice
 
 
-##### Figure X: Figure caption
+##### Figure 1 : The five first modified measures of the piece Liebesträume composed Liszt.
 
 ![](partition.png)
 
@@ -40,44 +41,31 @@ She quickly glances at it, closes it and classifies it as *non sensitive letter*
 
 Once Bob receives it, he follows the rule that he agreed with Alice. He reads all notes preceded by a sharp or flat symbol, then converts it to a letter of the latin alphabet according to the following decoding table:
 
+##### Figure 2 : The key to decode the message.
+![](partitionkey.png)
 
 
+Stacking all those letters in the order of appearance in the sheet (from left to right, both of staves at the same time) leads to the decoded message *attack leave*. As soon as Bob discovers it, he understands that his security is at stake and immediately leaves for another shelter.
 
+<!-- 
+##### Figure 3 : The solution.
+![](partitionsoluce.png) -->
 
+This fictional example illustrates the concept of *steganography* and *steganalysis*. Since the formal definition of the prisoners' problem by Simmons in 1983, steganography and steganalysis have been considered as a *hide and seek* game.
 
+The prisoners’ problem tells the story of Alice and Bob, two prisoners working on an escape plan. They are allowed to communicate, but their communications pass through the warden, Eve. Eve will attempt to find any hidden communication between Alice and Bob, and if she finds one, she will cut the communication channel.
 
-\begin{figure}[h]
-    \includegraphics[width=\textwidth]{images/partitionkey.pdf}%
-    %\caption{A partition }%
-    \label{fig:partitionkey}%
-\end{figure}
+## Definition of concepts
 
+**Steganography** is the art of dissimulation. When *Alice* wants to communicate a secret message to *Bob*, steganography consists in hiding a message in a *content*, while Alice and Bob previously shared the decoding method. There are illimited possibilities for the nature of the content as long as it looks legitimate: it could be a music sheet or a poem, an image... 
 
-\marginnote{In this example, Alice modifies the five first measures of the piece Liebesträume composed Liszt to embed her message.}
+**Steganalysis** is the adversarial act of detecting if a message has been hidden in a content. *Eve*, as in the expression *eavesdropping*, wants to stop Alice and Bob to keep secrets from her. She has the power to cut the communication channel between the two of them, which encourages them to be the least suspicious as possible.
 
-Stacking all those letters in the order of appearance in the sheet (from left to right, both of staves at the same time) leads to the decoded message ``\textit{attack leave}''. As soon as Bob discovers it, he understands that his security is at stake and immediately leaves for another shelter.
-
-This fictional example illustrates the concept of \textit{steganography} and \textit{steganalysis}. Since the formal definition of the prisoners' problem by Simmons~\cite{simmons1984prisoners} in 1983, steganography and steganalysis have been considered as a {\it hide and seek} game.
-
-\marginnote{The prisoners’ problem tells the story of Alice and Bob, two prisoners working on an escape plan. They are allowed to communicate, but their communications pass through the warden, Eve. Eve will attempt to find any hidden communication between Alice and Bob, and if she finds one, she will cut the communication channel.}
-
-
-\paragraph{Steganography} is the art of dissimulation. When \textit{Alice} wants to communicate a secret message to \textit{Bob}, steganography consists in hiding a message in a \textit{content}, while Alice and Bob previously shared the decoding method. There are illimited possibilities for the nature of the content as long as it looks legitimate: it could be a music sheet or a poem, an image... 
-
-\paragraph{Steganalysis} is the adversarial act of detecting if a message has been hidden in a content. \textit{Eve}, as in the expression \textit{eavesdropping}, wants to stop Alice and Bob to keep secrets from her. She has the power to cut the communication channel between the two of them, which encourages them to be the least suspicious as possible.
-
-\vspace{1em}
-
-History is full of amusing anecdotes about past usages of steganography. To our knowledge, the first utilization  goes back to ancient Greece. In the book \textit{Histories} written by Herodotus, Histiaeus tatooes a secret message on the skull of a slave. The messenger goes undercover when his hair grow back, and the message is decoded by Aristogoras by simply shaving him.
+History is full of amusing anecdotes about past usages of steganography. To our knowledge, the first utilization goes back to ancient Greece. In the book *Histories* written by Herodotus, Histiaeus tatooes a secret message on the skull of a slave. The messenger goes undercover when his hair grow back, and the message is decoded by Aristogoras by simply shaving him.
 
 Another famous use of steganography is writing using invisible ink on regular paper. The ink can be made of lemon juice, and the message can be read by exposing the paper to a source of heat.
 
-
-% \begin{figure}[h]
-%     \includegraphics[width=\textwidth]{images/partitionsoluce.pdf}%
-%     \caption{A partition }%
-%     \label{fig:partitionsoluce}%
-% \end{figure}
+<!-- 
 
 \vspace{1em}
 
@@ -129,80 +117,6 @@ Y = 0.299R + 0.587G + 0.114B
 \caption{Three colors (left) channels, which when superposed produce a color image (fourth image). The last image is the luminance computed with Equation~\ref{eq:luminance}.
 }
 \label{fig:imagecolor}
-\end{figure*} -->
+\end{figure*}  -->
 
 
-
-
-This course covers research topics related to things. It tries to answer several questions: 
-
-+ Why this? 
-+ Why that? 
-+ What about this? 
-+ What about that?
-
-
----
-
-## Part 1
-
-This section reviews things.
-
-##### Lecture videos
-
-1. [Video Title 1](https://youtu.be/0rbmjemhy38)
-2. [Video Title 2](https://youtu.be/a2tbm5ljZJM)
-3. [Video Title 3](https://youtu.be/bz2mXgo7Kj0)
-4. [Video Title 4](https://youtu.be/rA4S9lFiU3o)
-
-##### Lecture notes
-
-+ [Lecture Note Title 1](lecture1.pdf)
-
-##### Readings
-
-+ [Paper Title 1](https://doi.org/10.1257/aer.102.4.1721) – This paper finds things.
-+ [Paper Title 2](https://doi.org/10.1257/mac.6.1.190) – This paper reviews things.
-+ [Paper Title 3](https://doi.org/10.1093/qje/qjv006) – This paper reviews more things and derives some results.
-
-##### Homework
-
-+ [Quiz 1](quiz1.pdf)
-+ [Problem set 1](ps1.pdf)
-
----
-
-## Part 2
-
-This section introduces other things.
-
-##### Lecture videos
-
-5. [Video Title 5](https://youtu.be/tU0dtS9iiOk)
-6. [Video Title 6](https://youtu.be/GMIKykwvrGI)
-7. [Video Title 7](https://youtu.be/79MSNfp1rw0)
-8. [Video Title 8](https://youtu.be/zEShE10YiYo)
-9. [Video Title 9](https://youtu.be/SNlHsn7isog)
-
-##### Lecture notes
-
-+ [Lecture Note Title 2](lecture2.pdf)
-
-##### Readings
-
-+ [Paper Title 4](https://doi.org/10.1093/restud/rdy030) – This paper shows stuff.
-+ [Paper Title 5](https://doi.org/10.1093/jeea/jvaa041) – This paper shows other things.
-
-##### Homework
-
-+ [Quiz 2](quiz2.pdf)
-+ [Problem Set 2](ps2.pdf)
-
----
-
-## Part 3
-
-This section turns to other things. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
