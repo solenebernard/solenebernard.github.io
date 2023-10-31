@@ -1,4 +1,4 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
+baseURL: "https://solenebernard.github.io" 
 title: Prof. Name
 paginate: 20
 theme: PaperMod
@@ -50,9 +50,9 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
+          title: PhD Solène Bernard
+          subtitle: "I am a PostDoc in the Computational Biology Departement of Pasteur Institute."
+          imageUrl: "bio-photo.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Prof. Name
