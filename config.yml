@@ -61,10 +61,6 @@ consequat."
               url: papers/
             - name: Blog
               url: courses/
-            # - name: Data
-            #   url: data/
-            # - name: Newsletter
-            #   url: https://pmichaillat.substack.com
             - name: Tags
               url: tags/
             - name: Archive

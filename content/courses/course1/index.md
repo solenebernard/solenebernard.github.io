@@ -9,20 +9,17 @@ cover:
     image: "course1.png"
     alt: "Figure caption"
     relative: false
+showToc: true
+disableAnchoredHeadings: false
 editPost:
     URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
     Text: "YouTube playlist"
-showToc: true
-disableAnchoredHeadings: false
 
 ---
 
+## Introduction
 
-In november 1940 in France, the Vichy Government installs the \textit{Service des Contrôles Techniques} in charge of watching French people through their letter correspondences. Eve, an employee of the SCT opens an envelop and finds a letter with a music sheet attached.
-<!-- \begin{center}
-\fbox{\begin{minipage}{24em}
-
-\setfont{frc}{ -->
+In november 1940 in France, the Vichy Government installs the *Service des Contrôles Techniques* in charge of watching French people through their letter correspondences. Eve, an employee of the SCT opens an envelop and finds a letter with a music sheet attached.
 
 My Dearest Bob,
 
@@ -32,31 +29,18 @@ Yours always,
 
 Alice
 
-<!-- }
-\end{minipage}}
-\end{center} -->
 
 ##### Figure X: Figure caption
 
-![](partition.pdf)
+![](partition.png)
 
 ---
-<!-- 
-\begin{figure}[h]
-    \includegraphics[width=\textwidth]{images/partition.pdf}%
-    \label{fig:partition}%
-\end{figure}
- -->
-<!-- 
-%\includemovie[text=\textit{Click here to listen to the music.}]{400pt}{10pt}{input_files/attackleave.mp3} -->
-
 
 She quickly glances at it, closes it and classifies it as *non sensitive letter*, and stacks it on the corresponding pile in order to send it to Bob as Alice expected. 
 
 Once Bob receives it, he follows the rule that he agreed with Alice. He reads all notes preceded by a sharp or flat symbol, then converts it to a letter of the latin alphabet according to the following decoding table:
 
 
-<!-- 
 
 
 
@@ -148,7 +132,7 @@ Y = 0.299R + 0.587G + 0.114B
 \end{figure*} -->
 
 
-## Introduction
+
 
 This course covers research topics related to things. It tries to answer several questions: 
 
