@@ -1,12 +1,12 @@
 ---
 title: "Synesthesia - When vision meets music"
-date: 2022-03-10
-tags: ["synesthesia", "algorithm"]
+date: 2023-10-31
+tags: ["synesthesia", "algorithm", "music"]
 author: "Solène Bernard"
 description: "Very basic introduction of steganography principle" 
 summary: "Vizualization of music via rain drops" 
 cover:
-    image: "partitionkey.png"
+    image: "interferences.png"
     alt: "Figure caption"
     relative: false
 showToc: true
@@ -20,18 +20,24 @@ editPost:
 
 ## The concept
 
-**Synesthesia**, from greek *syn*, « with » and *aesthesis*, « sensation » is a neurologic phenomenom where two or more senses are associated. For example, some people picturing letters of the alphabet with a color experience the most common type of synesthesia. Even if it is a non-volontary and durable condition, I propose several visual illustrations of music via different algorithms analyzing sound signals in the rubric with the sententious name *Synesthesia*.  
+**Synesthesia**, from greek *syn*, « with » and *aesthesis*, « sensation » is a neurologic phenomenom where two or more senses are associated. For example, picturing each letter of the alphabet with a distinct color is the most common type of synesthesia. Even if it is a non-volontary and durable condition, I propose several visual illustrations of music via different algorithms analyzing sound signals in the rubric under the sententious name *Synesthesia*.  
 
-## Rain drops : the mathematical modelization
+## Music analysis
 
-2D vizualization of a drops
 
-$$ S_{k,v, \phi}(r,t) = A_{k, v}(r,t) \times \cos \big(k(r+vt) + \phi\big) $$
 
-with 
+## Rain drops
+
+####  The mathematical modelization
+
+The mathetical expression of a mechanical wave propagating according to time and distance is :
+
+$$ S_{k,v, \phi, \lambda_0,\lambda_1}(r,t) = A_{k, v,\alpha,\lambda_0,\lambda_1}(r,t) \times \cos \big(k(r+vt) + \phi\big) $$
+
+with $A_{k, v,\lambda_0,\lambda_1}$ an amplitude funtion defined by:
 
 $$ A_{t_0, k, v}(r,t) = \begin{cases}
-    e^{-\lambda_0 r}e^{-\lambda_1 t} & \text{if } t >= 0 + \frac{r}{kv}, \\ % & is your "\tab"-like command (it's a tab alignment character)
+    \alpha e^{-\lambda_0 r}e^{-\lambda_1 t} & \text{if } t >= \frac{r}{kv}, \\ % & is your "\tab"-like command (it's a tab alignment character)
     0 & \text{otherwise.}
 \end{cases} $$ 
 
@@ -40,10 +46,11 @@ where the different variables are defined as the following:
 - $t$ is the duration of time elapsed since the drop hit the water
 - $k > 0$ is the wavenumber
 - $v > 0$ the velocity of the propagation of the wave in the water
+- $\alpha$ is a scalar controling the amplitude
 - $\lambda_0>0$ is a scalar which controls the exponential decrease of amplitude with distance to the origin ($r$)
 - $\lambda_1>0$ is a scalar which controls the exponential decrease of amplitude with time ($t$)
 
-## Code snippets
+##### Code snippets
 
 ```
 def spatial_wave(xx, yy, t, t0, origin, k, speed, phase, A, l0, l1):
