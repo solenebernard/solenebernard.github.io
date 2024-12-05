@@ -3,8 +3,8 @@ title: "Creating some funny tattoos"
 date: 2023-03-10
 tags: ["Procreate","Drawing"]
 author: "Solène Bernard"
-description: "Creating some funny tattoos!" 
-summary: "Designed to be printed as temporary tattoos, for some parties! Done on Procreate." 
+description: "Creating funny tattoos!" 
+summary: "Designed to be printed as temporary tattoos for parties! Done on Procreate." 
 cover:
     image: "Tatoo_Spring_presentation.png"
     alt: "Spring tattoo"
