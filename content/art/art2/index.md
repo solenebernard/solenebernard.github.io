@@ -31,5 +31,5 @@ Made on Procreate.
 
 <video src="time_in_a_bottle.mp4" controls></video>
 
-![](painting.jpg)
+![](painting.jpg =250x)
 
