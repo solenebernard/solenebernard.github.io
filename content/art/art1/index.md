@@ -1,7 +1,7 @@
 ---
 title: "Designing temporary tattoos on Procreate"
 date: 2023-03-10
-tags: ["steganography"]
+tags: ["Procreate","Drawing]
 author: "Solène Bernard"
 description: "Sharing some of my tattoos I designed for parties :)" 
 summary: "Sharing some temporary tattoos designed on Procreate!" 
@@ -22,7 +22,7 @@ disableAnchoredHeadings: false
 
 ## B&W tattoo
 
-![](A3.png)
+![](A3.PNG)
 
 ## Doodling tattoo
 
