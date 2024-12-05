@@ -17,9 +17,9 @@ disableAnchoredHeadings: false
 ---
 
 I can't enough from Jim Croce's song *Time in a bottle*. His lyrics are so touching.
-It's even heartbreaking given his life's story, that he died so young in a plane crash. His wife received after his death a letter from him, announcing he had decided to quit music. He wanted to spend more time with her and his daughter.
+It's even heartbreaking given his life's story, that he died so young in a plane crash. His wife received after his death a letter from him, announcing he had decided to quit music. He wanted to spend more time with her and their daughter.
 
-When I was in Brisbane participating to a painting event, I got inspired to make an animation for this beautiful song :)
+I was in Brisbane participating to a painting event, when I got inspired to make an illustration for this beautiful song, wihch became later an animation :)
 Made on Procreate.
 
 > If I could save time in a bottle \
