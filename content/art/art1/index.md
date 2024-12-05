@@ -4,7 +4,7 @@ date: 2023-03-10
 tags: ["steganography"]
 author: "Solène Bernard"
 description: "Sharing some of my tattoos I designed for parties :)" 
-summary: "Sharing some tattoos!" 
+summary: "Sharing some temporary tattoos designed on Procreate!" 
 cover:
     image: "Tatoo_Spring_presentation.png"
     alt: "Spring tattoo"
