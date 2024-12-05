@@ -1,6 +1,6 @@
 ---
 title: "Time in a bottle"
-date: 2023-03-10
+date: 2024-12-01
 tags: ["Procreate","Drawing", "Animation"]
 author: "Solène Bernard"
 description: "Time in a bottle" 
