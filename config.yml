@@ -17,6 +17,9 @@ menu:
         - name: Blog
           url: courses/
           weight: 2
+        - name: Art
+          url: art/
+          weight: 3
         # - name: Data
         #   url: data/
         #   weight: 3 
