@@ -64,10 +64,10 @@ consequat."
               url: papers/
             - name: Blog
               url: courses/
-            - name: Tags
-              url: tags/
             - name: Art
               url: art/
+            - name: Tags
+              url: tags/
             - name: Archive
               url: archive/
     socialIcons:
