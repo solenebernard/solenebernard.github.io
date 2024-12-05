@@ -6,7 +6,7 @@ author: ["Solène Bernard"]
 description: "Coding music analysis via Fourier decomposition" 
 summary: "This undergraduate course presents various methods and many results." 
 cover:
-    image: "spectrogram.pdf"
+    image: "spectrogram.png"
     alt: "Figure caption"
     relative: false
 showToc: true
