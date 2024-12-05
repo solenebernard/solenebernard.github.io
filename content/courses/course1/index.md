@@ -20,15 +20,12 @@ editPost:
 
 ## Introduction
 
-In november 1940 in France, the Vichy Government installs the *Service des Contrôles Techniques* in charge of watching French people through their letter correspondences. Eve, an employee of the SCT opens an envelop and finds a letter with a music sheet attached.
+In november 1940 in France, the Vichy Government installs the *Service des Contrôles Techniques* in charge of watching French people through their letter correspondences. **Eve**, an employee of the SCT opens an envelop and finds a letter with a music sheet attached.
 
-My Dearest Bob,
-
-I would be glad if you could share with me your thoughts about the music I wrote.
-
-Yours always,
-
-Alice
+> My Dearest Bob,
+> I would be glad if you could share with me your thoughts about the music I wrote.
+> Yours always,
+> -- <cite>Alice</cite>
 
 
 ##### Figure 1 : The five first modified measures of the piece Liebesträume composed Liszt.
@@ -51,7 +48,9 @@ Stacking all those letters in the order of appearance in the sheet (from left to
 ##### Figure 3 : The solution.
 ![](partitionsoluce.pdf)
 
-This fictional example illustrates the concept of *steganography* and *steganalysis*. Since the formal definition of the prisoners' problem by Simmons in 1983, steganography and steganalysis have been considered as a *hide and seek* game.
+This fictional example illustrates the concept of *steganography* and *steganalysis*. Alice and Bob perform steganography, as Alice hides a message in a content. Here, she modifies an existing music sheet according to a method they agreed beforehand with her accomplice Bob. On the other side, Eve, the employee of the SCT, performs steganalysis. She wants to block any secret messages transmitted between citizens. 
+
+Since the formal definition of the prisoners' problem by Simmons in 1983, steganography and steganalysis have been considered as a *hide and seek* game.
 
 The prisoners’ problem tells the story of Alice and Bob, two prisoners working on an escape plan. They are allowed to communicate, but their communications pass through the warden, Eve. Eve will attempt to find any hidden communication between Alice and Bob, and if she finds one, she will cut the communication channel.
 
