@@ -1,10 +1,10 @@
 ---
 title: "Optimizing Additive Approximations of Non-Additive Distortion Functions" 
-date: 2012-06-01
-tags: ["keyword 1","keyword 2","keyword 3"]
+date: 2020-06-01
+tags: ["Steganography","Steganalysis","Game theory"]
 author: "Solène Bernard, Patrick Bas, John Klein, Tomas Pevny"
-description: "This paper shows things. Published in Journal Name, 2012." 
-summary: "This paper shows things using various techniques and data." 
+description: "Published in IEEE Transactions on Information Forensics and Security, 2020." 
+summary: "How to improve sequentially steganography and steganalysis." 
 cover:
     image: "cat_and_mouse.png"
     alt: "Sequential game between steganography and steganalysis"
@@ -39,18 +39,18 @@ This paper proposes an algorithm which allows Alice to simulate the game played 
 
 ##### Citation
 
-Author. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Solène Bernard; Patrick Bas; John Klein; Tomas Pevny. 2020. "Explicit Optimization of min max Steganographic Game." * IEEE Transactions on Information Forensics and Security* Volume (16): 812 - 823. https://doi.org/10.1109/TIFS.2020.3021913
 
 ```BibTeX
-@article{AAYY,
-author = {Author},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title ={Title},
-volume = {Volume},
-year = {Year}}
+@article{bernard2020explicit,
+  title={Explicit optimization of min max steganographic game},
+  author={Bernard, Sol{\`e}ne and Bas, Patrick and Klein, John and Pevny, Tomas},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={16},
+  pages={812--823},
+  year={2020},
+  publisher={IEEE}
+}
 ```
 
 ---
