@@ -20,7 +20,7 @@ editPost:
 
 ## Introduction
 
-In november 1940 in France, the Vichy Government installs the *Service des Contrôles Techniques* in charge of watching French people through their letter correspondences. **Eve**, an employee of the SCT opens an envelop and finds a letter with a music sheet attached.
+In november 1940 in France, the Vichy Government installs the *Service des Contrôles Techniques* in charge of watching French people through their letter correspondences. Eve, an employee of the SCT opens an envelop and finds a letter with a music sheet attached.
  
 > My Dearest Bob, \
 > I would be glad if you could share with me your thoughts about the music I wrote. \
