@@ -36,18 +36,18 @@ This paper proposes an algorithm which allows Alice to simulate the game played 
 ![](paper1.png)
 
 ---
-```
-$$ \mathcal{Z}{0} $$ initial stego base, $$ \xcover =\left\lbrace \mathbf{x}_{(1)},..,\mathbf{x}_{(N)} \right\rbrace$ cover base, set of detector $$\fset^0 = \left\lbrace f^0 \right\rbrace$, $$k_{\max}$$}
+
+$ \mathcal{Z}{0} $ initial stego base, $\mathcal{X} =\left\lbrace \mathbf{x}_{(1)},..,\mathbf{x}_{(N)} \right\rbrace$ cover base, set of detector $\mathcal{F}^0 = \left\lbrace f^0 \right\rbrace$, $k_{\max}$
  $k \leftarrow 1$\;
  \While{$k \leq k_{\max}$}{
-  Obtain adversarial base $\zstegos{k}=\left\lbrace \mathbf{z}^k_{(1)},..,\mathbf{z}^k_{(N)} \right\rbrace$ where $\mathbf{z}^k_{(n)}=\text{ADV-EMB}\left(\mathbf{x}_{(n)},f_{k-1}\right)$\;
+  Obtain adversarial base $\mathcal{Z}{k}=\left\lbrace \mathbf{z}^k_{(1)},..,\mathbf{z}^k_{(N)} \right\rbrace$ where $\mathbf{z}^k_{(n)}=\text{ADV-EMB}\left(\mathbf{x}_{(n)},f_{k-1}\right)$\;
   Create stego base $\xstegos{k}= \left\lbrace \mathbf{y}^k_{(1)},..,\mathbf{y}^k_{(N)} \right\rbrace$ to be least detectable with respect to detectors in  $\fset^{k-1}$, $\mathbf{y}^k_{(n)} = \underset{\mathbf{z} \in \lbrace \mathbf{z}^0_{(n)},..,\mathbf{z}^k_{(n)}\rbrace}{\arg\min}\underset{f \in \fset^{k-1}}{\max}f\left( \mathbf{z}\right)$ \;
   Train a new classifier $f^k$ to discriminate $\xcover$ from $\xstegos{k}$ \;
   $\fset^k = \fset^{k-1} \cup \{\fdet^k\}.$\;
   $k \leftarrow k+1$\;
  }
  Return stego base $\xstegos{k_{\max}}$
-```
+
 
 ##### Citation
 
