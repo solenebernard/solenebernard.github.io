@@ -1,6 +1,6 @@
 ---
 title: "Creating some funny tattoos"
-date: 2023-03-10
+date: 2023-12-01
 tags: ["Procreate","Drawing"]
 author: "Solène Bernard"
 description: "Creating funny tattoos!" 
@@ -17,7 +17,6 @@ disableAnchoredHeadings: false
 ---
 
 I like organizing parties, and adding some cute activities and ornements, like temporary tattoos!
-
 
 ## Doodling tattoo
 
