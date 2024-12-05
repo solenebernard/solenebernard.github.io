@@ -16,17 +16,23 @@ disableAnchoredHeadings: false
 
 ---
 
+I like organizing parties, and adding some cute activities and ornements, like temporary tattoos!
+
+
+## Doodling tattoo
+
+For housewarming party, january 2023. 
+![](Tatoo_Doodling_Print.png)
+
+
 ## Spring tattoo
 
+For spring party, april 2023.
 ![](Tatoo_Spring.png)
 
 ## B&W tattoo
 
+For house cooling party, december 2023. 
 ![](A3.PNG)
-
-## Doodling tattoo
-
-![](Tatoo_Doodling_Print.png)
-
 
 
