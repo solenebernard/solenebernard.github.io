@@ -1,17 +1,14 @@
 ---
-title: "Course Title 2" 
-date: 2021-06-16
-tags: ["keyword 4","keyword 5","keyword 6"]
-author: ["Prof. Name 1","Prof. Name 2"]
-description: "This undergraduate course presents many new things." 
+title: "Music analysis" 
+date: 2023-06-12
+tags: ["Fourier decomposition","Music","Notes"]
+author: ["Solène Bernard"]
+description: "Coding music analysis via Fourier decomposition" 
 summary: "This undergraduate course presents various methods and many results." 
 cover:
-    image: "course2.png"
+    image: "spectrogram.pdf"
     alt: "Figure caption"
     relative: false
-editPost:
-    URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxHa26QiEdeEybMy0UbdjmW"
-    Text: "YouTube playlist"
 showToc: true
 disableAnchoredHeadings: false
 
