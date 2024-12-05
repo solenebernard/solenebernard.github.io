@@ -3,8 +3,8 @@ title: "Designing temporary tattoos on Procreate"
 date: 2023-03-10
 tags: ["Procreate","Drawing]
 author: "Solène Bernard"
-description: "Sharing some of my tattoos I designed for parties :)" 
-summary: "Sharing some temporary tattoos designed on Procreate!" 
+description: "Creating some funny tattoos!" 
+summary: "Designed to be printed as temporary tattoos, for some parties! Done on Procreate." 
 cover:
     image: "Tatoo_Spring_presentation.png"
     alt: "Spring tattoo"
