@@ -4,7 +4,7 @@ date: 2024-12-01
 tags: ["Procreate","Drawing", "Animation"]
 author: "Solène Bernard"
 description: "Time in a bottle" 
-summary: "An illustrated animation, inspired by Time in a bottle, Jim Croce. Done on Procreate." 
+summary: "An illustrated animation, inspired by the song Time in a bottle by Jim Croce. Done on Procreate." 
 cover:
     image: "presentation.png"
     alt: "Time in a bottle"
@@ -16,8 +16,10 @@ disableAnchoredHeadings: false
 
 ---
 
-Can't believe how beautiful are the lyrics of Jim Croce's song *Time in a bottle*.
-When I was in Brisbane participating to a evening painting event, I got inspired to make an animation for this beautiful song.
+I can't enough from Jim Croce's song *Time in a bottle*. His lyrics are so touching.
+It's even heartbreaking given his life's story, that he died so young in a plane crash. His wife received after his death a letter from him, announcing he had decided to quit music. He wanted to spend more time with her and his daughter.
+
+When I was in Brisbane participating to a painting event, I got inspired to make an animation for this beautiful song :)
 Made on Procreate.
 
 > If I could save time in a bottle \
@@ -29,5 +31,5 @@ Made on Procreate.
 
 <video src="time_in_a_bottle.mp4" controls></video>
 
-![](time_in_a_bottle.mp4)
+![](painting.jpg)
 
