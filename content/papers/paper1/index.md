@@ -43,6 +43,8 @@ $\mathcal{Z}^{0}$ initial stego base,
 
 $\mathcal{X} =\left\lbrace \mathbf{x}_{(1)},..,\mathbf{x}_{(N)} \right\rbrace$ cover base, 
 
+$\mathcal{Z} = \left\lbrace \mathbf{z}^k_{(1)},..,\mathbf{z}^k_{(N)} \right\rbrace$
+
 set of detectors $\mathcal{F}^0 = \left\lbrace f^0 \right\rbrace, k_{\max}$
 
 $k \leftarrow 1$;
