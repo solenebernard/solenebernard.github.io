@@ -45,11 +45,11 @@ Once Bob receives it, he follows the rule that he agreed with Alice. He reads al
 ![](partitionkey.png)
 
 
-Stacking all those letters in the order of appearance in the sheet (from left to right, both of staves at the same time) leads to the decoded message *attack leave*. As soon as Bob discovers it, he understands that his security is at stake and immediately leaves for another shelter.
+Stacking all those letters in the order of appearance in the sheet (from left to right, both of staves at the same time) leads to the decoded message '*attack leave*'. As soon as Bob discovers it, he understands that his security is at stake and immediately leaves for another shelter.
 
-<!-- 
+
 ##### Figure 3 : The solution.
-![](partitionsoluce.png) -->
+![](partitionsoluce.pdf)
 
 This fictional example illustrates the concept of *steganography* and *steganalysis*. Since the formal definition of the prisoners' problem by Simmons in 1983, steganography and steganalysis have been considered as a *hide and seek* game.
 
