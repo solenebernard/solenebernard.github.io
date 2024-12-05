@@ -51,7 +51,7 @@ consequat."
     profileMode:
           enabled: true
           title: PhD Solène Bernard
-          subtitle: "I am a PostDoc in the Computational Biology Departement of Pasteur Institute."
+          subtitle: "I am a PhD in Steganography and Computer Science. I also love art, music, and coding. The best is when everything meets."
           imageUrl: "bio-photo.jpg"
           imageWidth: 160
           imageHeight: 160
