@@ -36,8 +36,8 @@ My method works in three steps:
 
 ## Diving into the temporal signal
 
-
 Here the music I recorded:
+
 <audio src="jazz_nocturne_theme.mp3" controls></audio>
 
 Let's analyze the signal! 
@@ -50,6 +50,9 @@ If we zoom into the time axis, we can observe something close to a sinusoidal si
 ##### Figure 2 : Zoom into the time signal
 ![](temporal_signal_zoom.png)
 
+---
+
+## First step: Detect the moment where the notes where played 
 
 ##### Figure 1 : 
 ![](spectrogram.png)
@@ -81,6 +84,10 @@ From the spectrogram, we can compute a smoothest version of the temporal signal 
 
 ##### Figure 2 : 
 ![](detect_peaks_temp.png)
+
+---
+
+## Second step: Apply Fourier transform
 
 Then we can apply for each interval apply a fast fourier transform to find which frequencies are present in this temporal signal. Then we can detect again the peaks and choose the highests as being the main harmonic. 
 
@@ -119,7 +126,7 @@ liste_notes_letter = ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G",
 
 ---
 
-## Compute the note from the frequency
+## First step: Find the frequency then the note
 
 From a first note A defined by the frequency $f_0 = 440$Hz, the other notes are defined by:
 
