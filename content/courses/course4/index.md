@@ -26,7 +26,7 @@ From the spectrogram, we can compute a smoothest version of the temporal signal 
 
 Then we can apply for each interval apply a fast fourier transform to find which frequencies are present in this temporal signal. Then we can detect again the peaks and choose the highests as being the main harmonic. 
 
-##### Figure 3 : (Top) The extracted temporal signal corresponding to a note detected in the song. (Bottom) The corresponding Fourier transform of the signal. The highest peak is detected at $f=1575$. The other two peaks at higher frequencies correpond to the higher harmonics $2f* and $3f$.
+##### Figure 3 : (Top) The extracted temporal signal corresponding to a note detected in the song. (Bottom) The corresponding Fourier transform of the signal. The highest peak is detected at $f=1575$. The other two peaks at higher frequencies correpond to the higher harmonics $2f$ and $3f$.
 ![](apply_fft2.png)
 
 
