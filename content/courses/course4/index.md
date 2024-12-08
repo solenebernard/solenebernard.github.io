@@ -38,12 +38,17 @@ My method works in three steps:
 
 
 Here the music I recorded:
-![Music](jazz_nocturne_theme.mp3)
+<audio src="jazz_nocturne_theme.mp3" controls></audio>
 
 Let's analyze the signal! 
 
 ##### Figure 1 : Temporal signal
 ![](temporal_signal.png)
+
+If we zoom into the time axis, we can observe something close to a sinusoidal signal:
+
+##### Figure 2 : Zoom into the time signal
+![](temporal_signal_zoom.png)
 
 
 ##### Figure 1 : 
