@@ -14,6 +14,18 @@ disableAnchoredHeadings: false
 
 ---
 
+Inspired from my signal analysis teacher, also passionate about music (he is also a oboe player), I wanted to code a simple algorithm to analyze the note in a music piece. Fourier decomposition is a very efficient mathematical tool to do so: it shows the different frequencies present in a signal. We suppose that we record an instrument, like the piano, where different notes are played consecutively. 
+
+We suppose that each note are played on a *twelve-tone equal temperament* keyboard. That means 
+
+##### Figure 1 : 12-tone equal temperament chromatic scale on C
+![](gamme_chromatique.png)
+
+My method works in three steps: 
+- smooth the temporal signal in order to detect the timestamps of the notes
+- apply Fourier transform to each note individually
+- find the fundamental frequency and convert it to a note. 
+
 ## Introduction
 
 ##### Figure 1 : 
@@ -21,6 +33,12 @@ disableAnchoredHeadings: false
 
 
 ```
+# Import functions
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.fft import fft, ifft, fftfreq
+from scipy.signal import spectrogram, find_peaks
+
 # Compute the spectrogram and sum
 f, t, Sxx = spectrogram(y, fs, nperseg=2**9)
 enveloppe = Sxx.sum(axis=0)
