@@ -36,10 +36,15 @@ My method works in three steps:
 
 ## Diving into the temporal signal
 
+
+Here the music I recorded:
+![Music](jazz_nocturne_theme.mp3)
+
+Let's analyze the signal! 
+
 ##### Figure 1 : Temporal signal
 ![](temporal_signal.png)
 
-![Music](jazz_nocturne_theme.mp3)
 
 ##### Figure 1 : 
 ![](spectrogram.png)
