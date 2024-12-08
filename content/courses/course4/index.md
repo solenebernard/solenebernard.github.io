@@ -17,7 +17,7 @@ disableAnchoredHeadings: false
 
 ## Introduction
 
-Inspired from my signal analysis teacher at uni, who was also passionated with music (he was a keen oboe player!), I wanted to code a simple algorithm to analyze the notes in a music piece. The pitch of each note is defined by a frequency $f$. For example, the most common tuning fork gives a A at frequency $440$Hz. Fourier decomposition is a very efficient mathematical tool: it shows the different frequencies present in a signal. We suppose that we record an instrument, like a piano, where different notes are played consecutively. 
+Inspired from my signal analysis teacher at uni, who is also passionated with music (he is a keen oboe player!), I wanted to code a simple algorithm to analyze the notes in a music piece. The pitch of each note is defined by a frequency $f$. For example, the most common tuning fork gives a A at frequency $440$Hz. Fourier decomposition is a very efficient mathematical tool: it shows the different frequencies present in a signal. We suppose that we record an instrument, like a piano, where different notes are played consecutively. 
 
 We suppose that each note are played on a *twelve-tone equal temperament* keyboard. That means that the octave is divided into 12 parts which are equally spaced on a logarithmic scale. 
 
