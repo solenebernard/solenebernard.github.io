@@ -14,12 +14,19 @@ disableAnchoredHeadings: false
 
 ---
 
-Inspired from my signal analysis teacher, also passionate about music (he is also a oboe player), I wanted to code a simple algorithm to analyze the note in a music piece. Fourier decomposition is a very efficient mathematical tool to do so: it shows the different frequencies present in a signal. We suppose that we record an instrument, like the piano, where different notes are played consecutively. 
+Inspired from my signal analysis teacher, also passionate about music (he is also a oboe player), I wanted to code a simple algorithm to analyze the note in a music piece. The pitch of each note is defined by a frequency $f$. For example, a 440 diapason gives a reference which is A at frequency $440$Hz. Fourier decomposition is a very efficient mathematical tool: it shows the different frequencies present in a signal. We suppose that we record an instrument, like a piano, where different notes are played consecutively. 
 
-We suppose that each note are played on a *twelve-tone equal temperament* keyboard. That means 
+We suppose that each note are played on a *twelve-tone equal temperament* keyboard. That means that the octave is divided into 12 parts which are equally spaced on a logarithmic scale. 
 
 ##### Figure 1 : 12-tone equal temperament chromatic scale on C
 ![](gamme_chromatique.png)
+
+
+From a first note A defined by the frequency $f_0 = 440$Hz, the other notes are defined by:
+
+$$ f_i = f_0 \sqrt[12]{2}^i $$
+
+
 
 My method works in three steps: 
 - smooth the temporal signal in order to detect the timestamps of the notes
