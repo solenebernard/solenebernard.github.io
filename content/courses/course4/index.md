@@ -22,14 +22,11 @@ This course covers topics related to things. It tries to answer many questions:
 + Why that? 
 + What about this? 
 
-##### Introductory video
+From a first note A defined by the frequency $f_0 = 440$Hz, the other notes are defined by:
 
-0. [Video Title 0](https://youtu.be/nSbrF_ZWE_M)
+$$ f_i = f_0 * \sqrt[12]{2}**i $$
 
-##### Introductory readings
-
-+ [Paper Title 1](https://doi.org/10.1093/oep/gpab021) – This paper argues things.
-+ [Paper Title 2](https://doi.org/10.1016/j.pubecp.2021.100009) – This paper finds results. 
+It makes sure that $f_{i+12} = 2*f_i$, and that $f_{i+1} = f_{i}*a$ (with $a=\sqrt[12]{2}$).
 
 ---
 
