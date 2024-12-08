@@ -24,9 +24,13 @@ This course covers topics related to things. It tries to answer many questions:
 
 From a first note A defined by the frequency $f_0 = 440$Hz, the other notes are defined by:
 
-$$ f_i = f_0 * \sqrt[12]{2}**i $$
+$$ f_i = f_0 \sqrt[12]{2}^i $$
 
-It makes sure that $f_{i+12} = 2*f_i$, and that $f_{i+1} = f_{i}*a$ (with $a=\sqrt[12]{2}$).
+It makes sure that $f_{i+12} = 2f_i$, and that $f_{i+1} = af_{i}$ (with $a=\sqrt[12]{2}$).
+
+We can inverse this formula, and find back which note $i$ is defined by frequency $f$:
+
+$$ i = round(12 \log_2(\frac{f}{32.7031})) $$
 
 ---
 
