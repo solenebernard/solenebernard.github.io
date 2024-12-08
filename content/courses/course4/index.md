@@ -19,6 +19,23 @@ disableAnchoredHeadings: false
 ##### Figure 1 : 
 ![](spectrogram.png)
 
+
+```
+# Compute the spectrogram and sum
+f, t, Sxx = spectrogram(y, fs, nperseg=2**9)
+enveloppe = Sxx.sum(axis=0)
+
+# Detect the timestamps of the note
+ind, descr = find_peaks(enveloppe, width=1, height=5e-5)
+
+# Plot
+plt.figure(figsize=(15,4))
+plt.plot(t, enveloppe, label='Temporal signal') # temporal signal
+for num_i,i in enumerate(ind): # the peaks
+    plt.plot([t[i],t[i]], [0,descr['peak_heights'][num_i]], c='red')
+plt.show()
+```
+
 From the spectrogram, we can compute a smoothest version of the temporal signal which makes the detection of the note easy by a *scipy* function *detect_peaks*.
 
 ##### Figure 2 : 
@@ -29,8 +46,35 @@ Then we can apply for each interval apply a fast fourier transform to find which
 ##### Figure 3 : (Top) The extracted temporal signal corresponding to a note detected in the song. (Bottom) The corresponding Fourier transform of the signal. The highest peak is detected at $f=1575$. The other two peaks at higher frequencies correspond to the higher harmonics $2f$ and $3f$.
 ![](apply_fft2.png)
 
+```
+# Enumerate trough the peaks (the detected notes)
+for num_i,i in enumerate(ind):
+    t_min, t_max = t[descr['left_bases'][num_i]], t[descr['right_bases'][num_i]]
+    if t_max-t_min<2: # check that the one is shorter than 2 secs
 
+        # Subset 
+        small_t, small_y = t_axis[(t_axis>=t_min)&(t_axis<=t_max)], \
+            y[(t_axis>=t_min)&(t_axis<=t_max)]
+        
+        # FFT
+        N = len(small_t)
+        yf = fft(small_y)
+        yf = 2.0/N * np.abs(yf[0:N//2])
+        xf = fftfreq(N, 1/fs)[:N//2]
 
+        # Detect the peaks in the spectrum
+        peaks, _ = find_peaks(yf, distance=10, width=1)
+
+        # Choose the highest peak
+        index_maxi = np.argsort(yf[peaks])[-1]
+        f = xf[peaks[index_maxi]]
+        index_note = quantize_f_to_note(f)
+        print(f, index_note, liste_notes_letter[index_note%12])
+```
+
+```
+liste_notes_letter = ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"]
+```
 
 ---
 
