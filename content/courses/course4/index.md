@@ -55,8 +55,14 @@ If we zoom into the time axis, we can observe something close to a sinusoidal si
 
 ## First step: Detect the moment where the notes where played 
 
-##### Figure 1 : 
+##### Figure 3 : Spectrogram of the song. 
 ![](spectrogram.png)
+
+
+From the spectrogram, we can compute a smoothest version of the temporal signal which makes the detection of the note easy by a *scipy* function *detect_peaks*.
+
+##### Figure 4 : Smooth version of the time signal, and the red vertical lines correspond to detected notes.
+![](detect_peaks_temp.png)
 
 
 ```
@@ -80,11 +86,6 @@ for num_i,i in enumerate(ind): # the peaks
     plt.plot([t[i],t[i]], [0,descr['peak_heights'][num_i]], c='red')
 plt.show()
 ```
-
-From the spectrogram, we can compute a smoothest version of the temporal signal which makes the detection of the note easy by a *scipy* function *detect_peaks*.
-
-##### Figure 2 : 
-![](detect_peaks_temp.png)
 
 ---
 
@@ -129,15 +130,13 @@ liste_notes_letter = ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G",
 
 ## Third step: Find the frequency then the note
 
-From a first note A defined by the frequency $f_0 = 440$Hz, the other notes are defined by:
+We can inverse the formula presented earlier
 
 $$ f_i = f_0 \sqrt[12]{2}^i $$
 
-By the way, this definition is called *twelve-tone equal temperament* and  makes sure that $f_{i+12} = 2f_i$, and that $f_{i+1} = af_{i}$ (with $a=\sqrt[12]{2}$).
+and find back which note $i$ is defined by frequency $f$:
 
-We can inverse this formula, and find back which note $i$ is defined by frequency $f$:
-
-$$ i = round(12 \log_2(\frac{f}{440})) $$
+$$ i = round(12 \log_2(\frac{f}{f_0})) $$
 
 ```
 def quantize_f_to_note(f):
@@ -147,3 +146,11 @@ def quantize_f_to_note(f):
 ```
 
 ---
+
+## Results
+
+| Time     | Frequency | Notes |
+| -------- | --------- | ------ |
+| 1.21  | $250    |
+| 1.30 | $80     |
+| March    | $420    |
