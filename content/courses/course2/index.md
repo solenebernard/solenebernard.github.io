@@ -47,14 +47,14 @@ where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at eac
 Because the sensitivy curve overlap according the wavelength values, not all possible triplets $\{S_S(I(\lambda)), S_M(I(\lambda)), S_L(I(\lambda))\}$. 
 
 ##### Figure 2 : Response to monochromatic stimulus
-![](content/courses/course2/response_monochromatic.png)
+![](response_monochromatic.png)
 
 
 First let's inspect all possibles cones responses to monochromatic stimulation. We can plot on a 3D axis the values $\{S_S(\lambda), S_M(\lambda), S_L(\lambda)\}$ with $\lambda \in \[ 400 nm, 800 nm\]$.
 
 
 ##### Figure 3 : The set of possible triplets of responses to monochromatic stimulus
-![](content/courses/course2/contour.png)
+![](contour.png)
 
 
 
