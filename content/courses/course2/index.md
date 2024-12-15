@@ -6,7 +6,7 @@ author: ["Solène Beranrd"]
 description: "Trying to understand the human perception of colors." 
 summary: "" 
 cover:
-    image: "course2.png"
+    image: "sensitivity.png"
     alt: "Figure caption"
     relative: false
 showToc: true
