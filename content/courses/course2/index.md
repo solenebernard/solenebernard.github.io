@@ -7,7 +7,7 @@ description: "Trying to understand the human perception of colors."
 summary: "" 
 cover:
     image: "sensitivity.png"
-    alt: "Figure caption"
+    alt: "Sensitiviy of cones"
     relative: false
 showToc: true
 disableAnchoredHeadings: false
@@ -24,6 +24,8 @@ The perception of light is due to photoreceptors cells, called cone and rod cell
 
 From data collected from http://cvrl.ucl.ac.uk/cones.htm , we can plot the different sensitivy of those three cones, sensitives to either small (S_S), medium (S_M) or long (S_L) wavelenghts.
 
+##### Figure 1 : 12-tone equal temperament chromatic scale on C
+![](sensitivy.png)
 
 
 ---
