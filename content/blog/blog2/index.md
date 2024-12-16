@@ -1,5 +1,5 @@
 ---
-title: "Understanding the perception of colors" 
+title: "Understanding the perception of colors (*in progress*)" 
 date: 2024-12-15
 tags: ["color","theory","cones"]
 author: ["Solène Bernard"]
