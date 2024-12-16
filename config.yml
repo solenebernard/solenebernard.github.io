@@ -15,7 +15,7 @@ menu:
           url: papers/
           weight: 1
         - name: Blog
-          url: courses/
+          url: blog/
           weight: 2
         - name: Art
           url: art/
@@ -63,7 +63,7 @@ consequat."
             - name: Papers
               url: papers/
             - name: Blog
-              url: courses/
+              url: blog/
             - name: Art
               url: art/
             - name: Tags
