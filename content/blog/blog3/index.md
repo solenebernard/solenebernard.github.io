@@ -17,10 +17,7 @@ disableAnchoredHeadings: false
 
 ## The concept
 
-**Synesthesia**, from greek *syn*, « with » and *aesthesis*, « sensation » is a neurologic phenomenom where two or more senses are associated. For example, picturing each letter of the alphabet with a distinct color is the most common type of synesthesia. Even if it is a non-volontary and durable condition, I propose several visual illustrations of music via different algorithms analyzing sound signals in the rubric under the sententious name *Synesthesia*.  
-
-## Music analysis
-
+**Synesthesia**, from greek *syn*, « with » and *aesthesis*, « sensation » is a neurologic phenomenom where two or more senses are associated. For example, picturing each letter of the alphabet with a distinct color is the most common type of synesthesia. Even if it is a non-volontary and durable condition, I propose a simple visual illustration of music that I like to describe with this elaborated word. This article follows *Music analysis*!
 
 
 ## Rain drops
@@ -86,7 +83,7 @@ def spatial_wave(xx, yy, t, t0, origin, k, speed, phase, A, l0, l1):
 
 Here comes the exciting part. In my previous article I made a naive code to analyze the notes from a simple song. Now let's illustrate the results given by this algorithm with rain drops!
 
-Note that I illustrated only the right hand playing (which is a little jazzy impro), and the left hand is the start of a Chopin Nocturne Op. 9 No 2.
-
 <video src="nocturne.mp4" controls></video>
+
+Note that I illustrated only the right hand playing (which is a little jazzy impro), and the left hand is the start of a Chopin Nocturne Op. 9 No 2.
 
