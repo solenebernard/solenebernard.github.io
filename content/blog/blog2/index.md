@@ -43,19 +43,25 @@ $$ R = \sum_{i} I(\lambda_i) S(\lambda_i),$$
 
 where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at each discrete wavelength $\lambda_i$. -->
 
-So the sensation of color is *encoded* by the triplet $\mathbm{r} = {r_{S},r_{M},r_{L}}$ corresponding to the response to each cone. It is reasonable to assume that two different triplets will give different colors, and equivalently two same triplets will give the same color. 
+So the sensation of color is *encoded* by the triplet $\mathbf{r} = {r_{S},r_{M},r_{L}}$ corresponding to the response to each cone. It is reasonable to assume that two different triplets will give different colors, and equivalently two same triplets will give the same color. 
 
-## The space of possible cone responses
+## The space of possible cone responses 
 
-Because the sensitivy curve overlap, not all possible triplets $\{S_S(I(\lambda)), S_M(I(\lambda)), S_L(I(\lambda))\}$ can be reached. 
+Let's name $\mathcal{R} = \{\mathbf{r}\}$ the set of all possible triplets. We could think that set of triplets are in a cube of size $1$, but because the three sensitivy curves overlap, the responses of cone are dependant of each other. Let's first observe the set of responses corresponding to a monochromatic stimulus.
 
 ### Space of monochromatic stimulus
+
+First let's inspect all possibles cones responses to monochromatic stimulation. We can plot on a 3D axis the values $\{r_S, r_{M},r_{L}\}$ with 
++ r_S = S_S{\lambda}
++ r_M = S_M{\lambda}
++ r_L = S_L{\lambda}
+with $\lambda \in \[ 400 nm, 800 nm\]$. Let's call this set $\mathcal{R}_{mono}$
 
 ##### Figure 2 : Response to monochromatic stimulus
 ![](response_monochromatic.png)
 
 
-First let's inspect all possibles cones responses to monochromatic stimulation. We can plot on a 3D axis the values $\{S_S(\lambda), S_M(\lambda), S_L(\lambda)\}$ with $\lambda \in \[ 400 nm, 800 nm\]$. Let's call this set $\mathcal{R}_{mono}$
+
 
 
 ##### Figure 3 : The set of possible triplets of responses to monochromatic stimulus. On the left, the color shows the different lambda values (see the colorbar). On the right, the color is coded by the triplet $(r_l, r_m, r_s)$.
