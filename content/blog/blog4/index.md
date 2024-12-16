@@ -4,7 +4,7 @@ date: 2023-06-12
 tags: ["Fourier decomposition","Music","Notes"]
 author: ["Solène Bernard"]
 description: "Coding music analysis via Fourier decomposition" 
-summary: "This undergraduate course presents various methods and many results." 
+summary: "A toy example to analyzing notes in a piano piece!" 
 cover:
     image: "spectrogram.png"
     alt: "Figure caption"
@@ -149,8 +149,11 @@ def quantize_f_to_note(f):
 
 ## Results
 
+I still need to upload the result: compare the midi file to the output!
+
+<!-- 
 | Time     | Frequency | Notes |
 | -------- | --------- | ------ |
 | 1.21  | $250    |
 | 1.30 | $80     |
-| March    | $420    |
+| March    | $420    | -->
