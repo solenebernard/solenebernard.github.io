@@ -31,6 +31,7 @@ From data collected from http://cvrl.ucl.ac.uk/cones.htm , we can plot the diffe
 
 For each wavelength $\lambda$, the contribution to the cone's response is the product of the light's intensity $I(\lambda)$ and the cone's sensitivity $S(\lambda)$ at that wavelength.
 
+<!-- 
 Mathematically: $R = \int I(\lambda) S(\lambda) \, d\lambda$, where:
 + $R$ is the total cone response,
 + $I(\lambda)$ is the intensity of the light at wavelength $\lambda$,
@@ -40,7 +41,7 @@ If the light consists of discrete wavelengths (e.g., lasers or narrowband source
 
 $$ R = \sum_{i} I(\lambda_i) S(\lambda_i),$$
 
-where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at each discrete wavelength $\lambda_i$.
+where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at each discrete wavelength $\lambda_i$. -->
 
 ## The space of possible cone responses
 
