@@ -4,7 +4,7 @@ date: 2022-03-10
 tags: ["steganography"]
 author: "Solène Bernard"
 description: "Very basic introduction of steganography principle" 
-summary: "This graduate course presents various methods and results." 
+summary: "A simple example to illustrate steganography and steganalysis concepts" 
 cover:
     image: "partitionkey.png"
     alt: "Figure caption"

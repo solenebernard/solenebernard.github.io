@@ -17,7 +17,7 @@ disableAnchoredHeadings: false
 
 ## The concept
 
-**Synesthesia**, from greek *syn*, « with » and *aesthesis*, « sensation » is a neurologic phenomenom where two or more senses are associated. For example, picturing each letter of the alphabet with a distinct color is the most common type of synesthesia. Even if it is a non-volontary and durable condition, I propose a simple visual illustration of music that I like to describe with this elaborated word. This article follows *Music analysis*!
+**Synesthesia**, from greek *syn*, « with » and *aesthesis*, « sensation » is a neurologic phenomenom where two or more senses are associated. For example, picturing each letter of the alphabet with a distinct color is the most common type of synesthesia. Even if it is supposed to be non-volontary and durable condition, I propose a simple visual illustration of music that I like to describe with this sophisticated word. This article follows *Music analysis*!
 
 
 ## Rain drops
