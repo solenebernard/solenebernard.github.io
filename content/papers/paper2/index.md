@@ -1,33 +1,39 @@
 ---
-title: "Paper Title 2" 
-date: 2015-12-01
-tags: ["keyword 1","keyword 2","keyword 4"]
-author: ["Author Name 1", "Author Name 2"]
-description: "This paper shows other things. Published in Journal Name, 2015." 
-summary: "This paper shows other things using other techniques and different data." 
+title: "Work in progress: Improving SMLM with LUSCo" 
+date: 2023-12-01
+tags: ["SMLM", "Deep Learning"]
+author: ["Solène Bernard", "Benoît Lelandais", "Christophe Zimmer"]
+description: "Work in progress from my PostDoc in Pasteur Institute" 
+summary: "LUSCo is a computational approach to generate multicolour images from SMLM data of distinct molecular structures labeled with the same dye and imaged simultaneously." 
 cover:
-    image: "paper2.png"
+    image: "lusco_presentation.png"
     alt: "Image caption"
     relative: false
-editPost:
-    URL: "https://doi.org/10.1073/pnas.1816454115"
-    Text: "Other Journal Name"
-
 ---
-
+<!-- 
 ---
 
 ##### Download
 
 + [Paper](paper2.pdf)
 + [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/unemployment-gap)
++ [Code and data](https://github.com/pmichaillat/unemployment-gap) -->
 
 ---
 
 ##### Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Studying via Single Molecule Localization Microscopy (SMLM) the interactions between distinct molecular structures within cells requires the visualization of multiple molecular targets in the same sample. But simultaneous multicolour SMLM comes with technical difficulties. Here, we propose a computational approach to recolor SMLM images of distinct molecular structures labeled with the same dye and imaged simultaneously. We demonstrate the approach on composite image of five different structures.
+
+% Main text max 1200
+
+
+SMLM allows to probe intricate cellular structures at near molecular resolution. Studying the interactions between distinct molecular structures within cells requires the super-resolution visualization of multiple molecular targets in the same sample. Multicolour SMLM based on photoswitchable dyes typically employs fluorescent dyes with distinct spectra to label distinct molecular species. However this method is generally limited to 2-4 colours because of spectral overlaps and differences in blinking efficiencies, requires careful registration and is prone to chromatic aberrations. Sequential DNA-PAINT allows multicolour imaging of many different molecular species with the same dyes but necessitates washing steps in between imaging cycles and requires long acquisition times. 
+
+To overcome those problems, we propose a computational approach to generate multicolour images from SMLM data of distinct molecular structures labeled with the same dye and imaged simultaneously. The central principle underpinning this study pertains to the deep learning model's ability to assimilate spatial patterns of distinct molecules, facilitating their discrimination. To achieve this, the model necessitates a training process using a dataset of both monochromatic and multichromatic images, such as the model learns to recolor monochromatic images thanks to the ground truth multicolor version of it. It is why we curated a synthetic dataset comprising superimposed, independently acquired SMLM images. The artificial superimposition of these images provides us with both monochromatic (obtained by summing the superimposed images) and multichromatic versions. Then we demonstrate the approach on bicolor images  data and show preliminary results on experimental data including microtubules and nuclear pores. Our approach provides an alternative route towards imaging many molecular structures in the same cells at high resolution with a single fluorescent dye.
+
+The deep learning network works as the following. A 
 
 ---
 
