@@ -86,5 +86,7 @@ def spatial_wave(xx, yy, t, t0, origin, k, speed, phase, A, l0, l1):
 
 Here comes the exciting part. In my previous article I made a naive code to analyze the notes from a simple song. Now let's illustrate the results given by this algorithm with rain drops!
 
+Note that I illustrated only the right hand playing (which is a little jazzy impro), and the left hand is the start of a Chopin Nocturne Op. 9 No 2.
 
+<video src="nocturne.mp4" controls></video>
 
