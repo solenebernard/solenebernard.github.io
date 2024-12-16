@@ -43,7 +43,7 @@ $$ R = \sum_{i} I(\lambda_i) S(\lambda_i),$$
 
 where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at each discrete wavelength $\lambda_i$. -->
 
-So the sensation of color is *encoded* by the triplet $\mathbf{r} = {r_{S},r_{M},r_{L}}$ corresponding to the response to each cone. It is reasonable to assume that two different triplets will give different colors, and equivalently two same triplets will give the same color. 
+So the sensation of color is *encoded* by the triplet $\mathbf{r} = \{r_{S},r_{M},r_{L}\}$ corresponding to the response to each cone. It is reasonable to assume that two different triplets will give different colors, and equivalently two same triplets will give the same color. 
 
 ## The space of possible cone responses 
 
@@ -51,23 +51,25 @@ Let's name $\mathcal{R} = \{\mathbf{r}\}$ the set of all possible triplets. We c
 
 ### Space of monochromatic stimulus
 
-First let's inspect all possibles cones responses to monochromatic stimulation. We can plot on a 3D axis the values $\{r_S, r_{M},r_{L}\}$ with 
-+ r_S = S_S{\lambda}
-+ r_M = S_M{\lambda}
-+ r_L = S_L{\lambda}
-with $\lambda \in \[ 400 nm, 800 nm\]$. Let's call this set $\mathcal{R}_{mono}$
-
 ##### Figure 2 : Response to monochromatic stimulus
 ![](response_monochromatic.png)
 
 
-
+First let's inspect all possibles cones responses to monochromatic stimulation. We can plot on a 3D axis the values $\{r_S, r_{M},r_{L}\}$ with 
++ $r_S = S_S(\lambda)$
++ $r_M = S_M(\lambda)$
++ $r_L = S_L(\lambda)$
+with $\lambda \in \[ 400 nm, 800 nm\]$. Let's call this set $\mathcal{R}_{mono}$
 
 
 ##### Figure 3 : The set of possible triplets of responses to monochromatic stimulus. On the left, the color shows the different lambda values (see the colorbar). On the right, the color is coded by the triplet $(r_l, r_m, r_s)$.
 ![](contour.png)
 
+It's interesting to see that every distinct $\lambda$ will give another triplet (therefore another color). In fact, the condition to distinguish all different monochromatic lights (within a visible bandwidth) is to have at least three disctinct cones!
+
 ### Space of all responses
+
+An amazing feature with having three cones is that the range of colors perceived is bigger than the one provoked by monochromatic lights. I think it is this observation where comes from the saying "the color pink doesn't exist", because it's a color that is felt only via a combination of monochromatic lights. 
 
 Because we assume that
 + any spectrum can be written as a distribution $I(\lambda)$ 
@@ -82,3 +84,5 @@ the set of all possible triplets is equal to the **convex hull** $\mathcal{R}$ g
 Even if any color is only an interpretation of the brain and we could argue that no color *exist*, we could keep this terminology to describe colors that are produced after a monochromatic stimulation. Following this definition, *existing* colors are the one in $\mathcal{R}_{mono}$, and the other existing colors are stricly inside the convex hull.
 
 ## Normalization of the color space
+
+## Reproducing the sensation of color via RGB leds
