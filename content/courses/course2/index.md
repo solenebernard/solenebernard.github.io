@@ -42,9 +42,11 @@ $$ R = \sum_{i} I(\lambda_i) S(\lambda_i),$$
 
 where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at each discrete wavelength $\lambda_i$.
 
-### The space possible cone responses
+## The space of possible cone responses
 
 Because the sensitivy curve overlap, not all possible triplets $\{S_S(I(\lambda)), S_M(I(\lambda)), S_L(I(\lambda))\}$ can be reached. 
+
+### Space of monochromatic stimulus
 
 ##### Figure 2 : Response to monochromatic stimulus
 ![](response_monochromatic.png)
@@ -55,6 +57,16 @@ First let's inspect all possibles cones responses to monochromatic stimulation. 
 
 ##### Figure 3 : The set of possible triplets of responses to monochromatic stimulus. The colorbar show the different lambda values.
 ![](contour.png)
+
+### Space of all answers
+
+Because any spectrum can be written as a distribution $I(\lambda)$ and 
+
+
+
+
+
+
 
 
 
