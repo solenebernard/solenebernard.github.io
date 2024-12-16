@@ -53,8 +53,8 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: PhD Solène Bernard
-          subtitle: "I am a PhD in Steganography and Computer Science. I also love visual art, music, and coding. The best is when everything meets. Sharing here my work, and also my personal projects in the blog section :)"
+          title: Solène Bernard, PhD
+          subtitle: "I have a PhD in Steganography and Computer Science for University of Lille, France. Then I did my PostDoc in Pasteur Insitute, Paris, in the Image and Modelization Unit. I also love visual art, music, and coding. The best is when everything meets. Sharing here my work, and also my personal projects in the blog section :)"
           imageUrl: "bio-photo.jpg"
           imageWidth: 160
           imageHeight: 160
