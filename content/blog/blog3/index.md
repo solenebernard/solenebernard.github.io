@@ -80,3 +80,11 @@ def spatial_wave(xx, yy, t, t0, origin, k, speed, phase, A, l0, l1):
 
     return(s)
 ```
+
+
+## Synchronizing rain with music!
+
+Here comes the exciting part. In my previous article I made a naive code to analyze the notes from a simple song. Now let's illustrate the results given by this algorithm with rain drops!
+
+
+
