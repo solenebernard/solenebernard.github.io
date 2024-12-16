@@ -65,11 +65,11 @@ with $\lambda \in \[ 400 nm, 800 nm\]$. Let's call this set $\mathcal{R}_{mono}$
 ##### Figure 3 : The set of possible triplets of responses to monochromatic stimulus. On the left, the color shows the different lambda values (see the colorbar). On the right, the color is coded by the triplet $(r_l, r_m, r_s)$.
 ![](contour.png)
 
-It's interesting to see that every distinct $\lambda$ will give another triplet (therefore another color). In fact, the condition to distinguish all different monochromatic lights (within a visible bandwidth) is to have at least three disctinct cones!
+It's interesting to see that every distinct $\lambda$ will give another triplet (therefore another color). In fact, the condition to distinguish all different monochromatic lights (within a visible bandwidth) is to have at least three disctinct cones, and that the three overlap! (*add section to explain*).
 
 ### Space of all responses
 
-An amazing feature with having three cones is that the range of colors perceived is bigger than the one provoked by monochromatic lights. I think it is this observation where comes from the saying "the color pink doesn't exist", because it's a color that is felt only via a combination of monochromatic lights. 
+An amazing feature with having three cones is that the range of colors perceived is bigger than the one provoked by monochromatic lights. I think the observation "the color pink doesn't exist" comes from this statement: pink is a color that is felt only via a **combination of monochromatic lights**. For the same reason, we could also say that white doesn't exist!
 
 Because we assume that
 + any spectrum can be written as a distribution $I(\lambda)$ 
