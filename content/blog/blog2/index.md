@@ -78,15 +78,3 @@ Even if any color is only an interpretation of the brain and we could argue that
 
 
 
-
-
-
-
-
-
-For every monochromatic lights stimulation of intensity $1$,
-
-
----
-
-## Part 1
