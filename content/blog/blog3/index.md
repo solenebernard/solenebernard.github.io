@@ -85,5 +85,5 @@ Here comes the exciting part. In my previous article I made a naive code to anal
 
 <video src="nocturne.mp4" controls></video>
 
-Note that I illustrated only the right hand playing (which is a little jazzy impro), and the left hand is the start of a Chopin Nocturne Op. 9 No 2.
+Note that this piece is a little jazzy impro on top of the beggining of a Chopin Nocturne Op. 9 No 2 (left hand).
 
