@@ -20,7 +20,7 @@ Recently, I read an article claiming that the color pink doesn't exist, and is o
 
 ### Cones 
 
-The perception of light is due to photoreceptors cells, called cone and rod cells. Rod cells gives low intensity light perception, and cones cells gives high intensity light perception. Most humans have three kinds of cones, each sensitive to a different spectrum of lights, and the combination of those three signals analyzed by our brain gives the sensation of light.
+The perception of light is due to photoreceptors cells, called cone and rod cells. Rod cells gives low intensity light perception, and cones cells gives high intensity light perception. Most humans have three kinds of cones, each sensitive to a different spectrum of lights, and the combination of those three signals analyzed by our brain gives the sensation of color.
 
 From data collected from http://cvrl.ucl.ac.uk/cones.htm , we can plot the different sensitivy of those three cones, sensitives to either small ($S_S$), medium ($S_M$) or long ($S_L$) wavelenghts.
 
@@ -42,6 +42,8 @@ If the light consists of discrete wavelengths (e.g., lasers or narrowband source
 $$ R = \sum_{i} I(\lambda_i) S(\lambda_i),$$
 
 where $I(\lambda_i)$ and $S(\lambda_i)$ are the intensity and sensitivity at each discrete wavelength $\lambda_i$. -->
+
+So the sensation of color is *encoded* by the triplet $\mathbm{r} = {r_{S},r_{M},r_{L}}$ corresponding to the response to each cone. It is reasonable to assume that two different triplets will give different colors, and equivalently two same triplets will give the same color. 
 
 ## The space of possible cone responses
 
@@ -74,7 +76,3 @@ the set of all possible triplets is equal to the **convex hull** $\mathcal{R}$ g
 Even if any color is only an interpretation of the brain and we could argue that no color *exist*, we could keep this terminology to describe colors that are produced after a monochromatic stimulation. Following this definition, *existing* colors are the one in $\mathcal{R}_{mono}$, and the other existing colors are stricly inside the convex hull.
 
 ## Normalization of the color space
-
-
-
-
