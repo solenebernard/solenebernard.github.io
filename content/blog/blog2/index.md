@@ -91,11 +91,13 @@ Even if any color is only an interpretation of the brain and we could argue that
 
 ## Appendix: minimal number of cones for monochromatic light distinction
 
-To be able to see every monochromatic light as a different color, and if we assume that every cone sensitivy has a shape similar to a gaussian curve (increasing then decreasing), we can understand why one cone is not enough. We need a bijection between $\lambda$ and $S(\lambda)$.
+To be able to see every monochromatic light as a different color, and if we assume that every cone sensitivy has a shape similar to a gaussian curve (increasing then decreasing), we can see that one cone is not enough.
 
 
 ##### Figure A.1 : Vision with one cone
 ![](one_cone.png)
+
+We need a bijection between $\lambda$ and $(S_0(\lambda),S_1(\lambda))$. For that, we need at least cones, but whose spectrum overlaps *enough*!
 
 ##### Figure A.2 : Vision with two non-overlapping cones 
 ![](two_cones_translated.png)
