@@ -54,7 +54,7 @@ consequat."
     profileMode:
           enabled: true
           title: Solène Bernard, PhD
-          subtitle: "I have a PhD in Steganography and Computer Science from University of Lille, France. Then I did my PostDoc in Pasteur Insitute in Paris, where I analyzed high definition microscopic images in the Image and Modelization Unit. I also love visual art and music! The best is when everything meets. Sharing here my work, and also my personal projects in the blog section :)"
+          subtitle: "I have a PhD in Steganography and Computer Science from University of Lille, France. Then I did my PostDoc in Pasteur Insitute in Paris, where I worked in the Image and Modelization Unit. In addition to coding, I also love visual art and music! The best is when all of it meets. Sharing here my work, and also my personal projects in the blog section :)"
           imageUrl: "bio-photo.jpg"
           imageWidth: 160
           imageHeight: 160
