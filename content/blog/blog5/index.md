@@ -54,9 +54,9 @@ Let's find a sound signal $I(f, t)$, such that, $\forall t$:
 
 ## Do we hear more than we see?
 
-We can argue that we see more than we see because of how is encoded information. The space of hearable signals is way bigger than the one of visible colors. 
+We can argue that we hear more than we see because of how is encoded information. The space of hearable signals is way bigger than the one of visible colors. 
 
-But colors are not the only information given by our eyes. There are million of cone cells in our eyes that give us also *spacial information* about colors. Whereas we only have two ears that limit the spatial localization. 
+But colors are not the only information given by our eyes. There are million of cone cells in our eyes that give us also *spacial information* about colors. Whereas we only have two ears that limits the spatial localization of our environment! 
 
 To conclude, I would say that we hear way more than we see colors!
 
