@@ -1,6 +1,6 @@
 ---
 title: "After vision, what about hearing? (*in progress*)" 
-date: 2024-12-20
+date: 2024-12-19
 tags: ["hearing","theory", "frequency", "Fourier", "cochlea"]
 author: ["Solène Bernard"]
 description: "We're hearing more than we're seeing." 
