@@ -28,7 +28,32 @@ We can start by a straightforward observation: humans have the sensation of *sou
 
 The cochlea is the part in the inner ear that allows to analyzing sound frequency and sending it to the brain. It has a snail-like structure, and is covered by hair cells. The spatial arrangement of the membrane is called *tonotopy* (from Greek *tono* for frequency and *topos* for place). 
 
-## Fourier transform
+### Fourier transform
 
-We already talked in this post about Fourier transform. We have mathematical definition for the Fourier representation of any temporal signal. But our cochlea is a biological tool that produced the Fourier transform!
+We already talked in this post about Fourier transform. We have mathematical definition for the Fourier representation of any temporal signal. But our cochlea is a biological tool that produced the Fourier transform! There is not such this as metameric sounds, and very distinct sound (in the range of hearing of course) will produce another feeling of sound.
+
+## What if our ears would work as our eyes?
+
+Let's imagine we would had three cones which each would be sensitive to a different spectrum of frequencies. Just like for our eyes, there would be different sounds which produce the same hearing feeling: there would be metameric sounds.
+
+Would we be able to invent a melody, which under the assumption of cones in our hear, would give the same sound?
+
+### Let's find the melody
+
+Let's imagine we have three cones with each sensitivy $S_i(f)$. Two sounds $I_0$ and $I_1$ are metameric if $ \sum_f S_i(f)I_0(f) = \sum_f S_i(f)I_1(f)$. Let's find a sound signal $I(f, t)$, such that, $\forall t$:
++ $R_0 = \sum_f S_0(f)I(f, t) = $ constant
++ $R_1 = \sum_f S_1(f)I(f, t) = $ constant
++ $R_2 = \sum_f S_2(f)I(f, t) = $ constant
+
+
+
+## Do we hear more than we see?
+
+We can argue that we see more than we see because of how is encoded information. The space of hearable signals is way bigger than the one of visible colors. 
+
+
+
+
+
+
 
