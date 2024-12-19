@@ -65,7 +65,7 @@ with $\lambda \in \[ 400 nm, 800 nm\]$. Let's call this set $\mathcal{R}_{mono}$
 ##### Figure 3 : The set of possible triplets of responses to monochromatic stimulus. On the left, the color shows the different lambda values (see the colorbar). On the right, the color is coded by the triplet $(r_l, r_m, r_s)$.
 ![](contour.png)
 
-It's interesting to see that every distinct $\lambda$ will give another triplet (therefore another color). In fact, the condition to distinguish all different monochromatic lights (within a visible bandwidth) is to have at least three disctinct cones, and that the three overlap! (*add section to explain*).
+It's interesting to see that every distinct $\lambda$ will give another triplet (therefore another color). In fact, the condition to distinguish all different monochromatic lights (within a visible bandwidth) is to have at least two disctinct cones, and that the two overlap *enough*! (see Appendix).
 
 ### Space of all responses
 
@@ -97,7 +97,7 @@ To be able to see every monochromatic light as a different color, and if we assu
 ##### Figure A.1 : Vision with one cone
 ![](one_cone.png)
 
-We need a bijection between $\lambda$ and $(S_0(\lambda),S_1(\lambda))$. For that, we need at least cones, but whose spectrum overlaps *enough*!
+We need a bijection between $\lambda$ and $(S_0(\lambda),S_1(\lambda))$. For that, we need at least two cones, but whose spectrum overlaps *enough*!
 
 ##### Figure A.2 : Vision with two non-overlapping cones 
 ![](two_cones_translated.png)

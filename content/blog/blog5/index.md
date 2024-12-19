@@ -36,14 +36,19 @@ We already talked in this post about Fourier transform. We have mathematical def
 
 Let's imagine we would had three cones which each would be sensitive to a different spectrum of frequencies. Just like for our eyes, there would be different sounds which produce the same hearing feeling: there would be metameric sounds.
 
-Would we be able to invent a melody, which under the assumption of cones in our hear, would give the same sound?
+Would we be able to invent a melody, which under the assumption of cones in our ears, would give the same sound?
 
 ### Let's find the melody
 
-Let's imagine we have three cones with each sensitivy $S_i(f)$. Two sounds $I_0$ and $I_1$ are metameric if $ \sum_f S_i(f)I_0(f) = \sum_f S_i(f)I_1(f)$. Let's find a sound signal $I(f, t)$, such that, $\forall t$:
+Let's imagine we have three cones with each sensitivy $S_i(f)$. Two sounds $I_0$ and $I_1$ are metameric if $ \sum_f S_i(f)I_0(f) = \sum_f S_i(f)I_1(f)$. 
+
+
+Let's find a sound signal $I(f, t)$, such that, $\forall t$:
 + $R_0 = \sum_f S_0(f)I(f, t) = $ constant
 + $R_1 = \sum_f S_1(f)I(f, t) = $ constant
 + $R_2 = \sum_f S_2(f)I(f, t) = $ constant
+
+
 
 
 
@@ -51,6 +56,9 @@ Let's imagine we have three cones with each sensitivy $S_i(f)$. Two sounds $I_0$
 
 We can argue that we see more than we see because of how is encoded information. The space of hearable signals is way bigger than the one of visible colors. 
 
+But colors are not the only information given by our eyes. There are million of cone cells in our eyes that give us also *spacial information* about colors. Whereas we only have two ears that limit the spatial localization. 
+
+To conclude, I would say that we hear way more than we see colors!
 
 
 
