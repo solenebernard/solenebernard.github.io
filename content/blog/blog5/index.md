@@ -58,7 +58,7 @@ We can argue that we hear more than we see because of how is encoded information
 
 But colors are not the only information given by our eyes. There are million of cone cells in our eyes that give us also *spacial information* about colors. Whereas we only have two ears that limits the spatial localization of our environment! 
 
-To conclude, I would say that we hear way more than we see colors!
+To conclude, I would just say this less catchy phrase: we hear way more than we see colors :) 
 
 
 
