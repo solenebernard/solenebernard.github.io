@@ -83,6 +83,9 @@ the set of all possible triplets is equal to the **convex hull** $\mathcal{R}$ g
 
 Even if any color is only an interpretation of the brain and we could argue that no color *exist*, we could keep this terminology to describe colors that are produced after a monochromatic stimulation. Following this definition, *existing* colors are the one in $\mathcal{R}_{mono}$, and the other existing colors are stricly inside the convex hull.
 
+## Metamerism
+
+
 ## Normalization of the color space
 
 ## Reproducing the sensation of color via RGB leds
