@@ -1,8 +1,8 @@
 ---
-title: "The science of colour: from theory to digital imaging technology" 
+title: "The science of colour: from theory to digital imaging" 
 date: 2022-10-30
 tags: ["vision","theory", "colors"]
-author: ["Solène Bernard"]
+# author: ["Solène Bernard"]
 description: "From photon to digital images" 
 summary: "Because my thesis aims at hiding information in digital images, let's first dive into the origins of colour theory and then digital images." 
 cover:
