@@ -27,13 +27,15 @@ This technique is more than standard today, as it is part of our daily lives as 
 Isaac Newton’s work on colour was groundbreaking in the 17th century — he was the first to show, through systematic experiments, that white light is composed of many different colours, and that colours are a property of light itself, not of objects. Newton devised one of the first colour circles, arranging spectral colours around a wheel and showing that mixing certain pairs (e.g., red and blue) could produce others (e.g., purple), which do not appear in the spectrum. He also noted that mixing all spectral colours in proper proportions yields white.
 
 ##### The first colour wheel: Newton's colour circle
+<p align="center">
 <img src="newtons_colour_circle.png" width="200" height="200" />
+</p>
 
 ### Young's speculation on the biology of the eye
 
 It is in [1802 that Young boldly claims](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, which he named *point of the retina*, each of which are sensitive to a particular range of visible light, which are today called named short, medium, or large given their size. It came more from speculation following Newton's work than a experiment showing it. Young wrote in *The Bakerian Lecture: On the Theory of Light and Colours*:
 
-> *Scholium*. Since, for the reason here assigned by Newton, it is probable that the motion of the retina is rather of a vibratory than of an undulatory nature, the frequency of the vibrations must be dependent on the constitution of this substance. **Now, as it is almost impossible to conceive each sensitive point of the retina to contain an infinite number of particles each capable of vibrating in perfect unison with every possible undulation, it becomes necessary to suppose the number limited, for instance, to the three principal colours, red, yellow, and blue**, of which the undulations are related in magnitude nearly as the numbers 8, 7, and 6.
+> Now, as it is almost impossible to conceive each sensitive point of the retina to contain an infinite number of particles each capable of vibrating in perfect unison with every possible undulation, it becomes necessary to suppose the number limited, for instance, to the three principal colours, red, yellow, and blue, of which the undulations are related in magnitude nearly as the numbers 8, 7, and 6.
 
 ### Maxwell's experiment and first photography protocol
 
@@ -45,7 +47,7 @@ A few years later, inspired from Young's work, [Maxwell demonstrated theoretical
 Inspired by Mayer and Young's triangle, he formalized he statement by showing that
 
 #####  The color triangle of Tobias Mayer was the first formal treatment of the principle, known to artists and dyers, that all colors can be produced by mixing three pigments. 
-![](mayer_triangle.png)
+![](mayer_triangle.jpg)
 
 ##### Maxwell's triangle
 ![](diagram.png)
