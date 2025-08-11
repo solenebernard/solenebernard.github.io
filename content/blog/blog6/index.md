@@ -21,7 +21,7 @@ This technique is more than standard today, as it is part of our daily lives as 
 
 ### Newton's pioneer work
 
-[Isaac Newton’s work](https://www.gutenberg.org/files/33504/33504-h/33504-h.htm "Opticks") on colour was groundbreaking in the 17th century — he was the first to show, through systematic experiments, that white light is composed of many different colours, and that colours are a property of light itself, not of objects. Newton devised one of the first colour circles, arranging spectral colours around a wheel and showing that mixing certain pairs (e.g., red and blue) could produce others (e.g., purple), which do not appear in the spectrum. He also noted that mixing all spectral colours in proper proportions yields white.
+[Isaac Newton’s work](https://www.gutenberg.org/files/33504/33504-h/33504-h.htm "Opticks") on colour was groundbreaking in the 17th century — he was the first to show, through systematic experiments, that white light is composed of many different colours, and that colours are a property of light itself, not of objects. Newton devised one of the first colour circles, arranging spectral colours around a wheel and showing that mixing certain pairs (e.g., red and blue) could produce others (e.g., purple), which do not appear in the spectrum. He's the first to represent colours on a wheel, which is still today the representation mainly used.
 
 ##### The first colour wheel: Newton's colour circle
 <p align="center">
@@ -61,6 +61,12 @@ Two dominant photographic sensors exist: CCD (Charge-Coupled Device) and CMOS (C
 
 Today, the representation of colour digital images still relies on the superposition of three colour channels: red, green, and blue, so three types of sensors are used. Figure 1.1 shows both absorption spectrums of receptors in the eye and in a Nikon D700 camera look alike.
 In order to take at one instant a picture with three kinds of photoreceptors, the most common solution is to use a colour filter array (CFA). It is a mosaic of tiny colour filters placed over the pixel sensors of an image sensor to capture colour information. Multiple subjective designs of the CFA exist. The most popular one is the Bayer Filter, plotted in Figure 1.2.
+
+##### The Bayer CFA. Each two-by-two submosaic contains 2 green, 1 blue, and 1 red filter, each filter covering one pixel sensor.
+<p align="center">
+<img src="bayer.png" width="400"/>
+</p>
+
 
 The raw image data captured by the image sensor is then converted to a full-colour image (with intensities of all three primary colours represented at each pixel) by a demosaicing algorithm which is tailored for each type of colour filter. Gray scale images are coded only with one channel. It contains the luminance Y , which is equal to a linear combination of the three color channels R, G and B:
 
