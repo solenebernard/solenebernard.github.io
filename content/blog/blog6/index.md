@@ -15,7 +15,6 @@ disableAnchoredHeadings: false
 ---
 
 
-
 ## Introduction
 
 ### What is photography
@@ -23,11 +22,18 @@ disableAnchoredHeadings: false
 Photography, which means etymologically “coloring with light” is the ambitious challenge to convert into an object the environment which created a physical sensation in a human.
 This technique is more than standard today, as it is part of our daily lives as all of our smartphones can take pictures. However, until the last century, photography was not ordinary, requiring considerable technological and scientific progress.
 
-Two dominant photographic sensors exist: CCD (Charge-Coupled Device) and CMOS (Complementary Metal Oxide Semiconductor) using the photoelectric effect. It quantifies the number of photons hitting a photographic cell array to translate it to numerical data. In order to reproduce coloured photography, researchers first looked for the biological composition of the human eye. It is in [1802 that Young discovered](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, each of which are sensitive to a particular range of visible light, named short, medium, or large given their size.
+In order to reproduce coloured photography, researchers first looked for the biological composition of the human eye. It is in [1802 that Young discovered](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, each of which are sensitive to a particular range of visible light, named short, medium, or large given their size. Young wrote in *The Bakerian Lecture: On the Theory of Light and Colours*:
 
-> *Scholium*. Since, for the reason here assigned by Newton, it is probable that the motion of the retina is rather of a vibratory than of an undulatory nature, the frequency of the vibrations must be dependent on the constitution of this substance. Now, as it is almost impossible to conceive each sensitive point of the retina to contain an infinite number of particles each capable of vibrating iln perfect unison with every possible undulation, it becomes necessary to suppose the number limited, for instance,to the three principal colours, red, yellow, and blue, of which the undulations are related in magnitude nearly as the numbers 8, 7 , and 6 ;
+> *Scholium*. Since, for the reason here assigned by Newton, it is probable that the motion of the retina is rather of a vibratory than of an undulatory nature, the frequency of the vibrations must be dependent on the constitution of this substance. **Now, as it is almost impossible to conceive each sensitive point of the retina to contain an infinite number of particles each capable of vibrating in perfect unison with every possible undulation, it becomes necessary to suppose the number limited, for instance, to the three principal colours, red, yellow, and blue**, of which the undulations are related in magnitude nearly as the numbers 8, 7 , and 6.
 
-A few years later, Maxwell demonstrated theoretically in 1855 [9] that any monochromatic light stimulating three receptors should be able to be equally stimulated by a set of three different monochromatic lights. This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours. Therefore, the first colour photography was produced by tak- ing pictures three times of the same scene with three coloured filters.
+A few years later, Maxwell demonstrated theoretically in 1855 [9] that any monochromatic light stimulating three receptors should be able to be equally stimulated by a set of three different monochromatic lights. This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours. Therefore, the first colour photography was produced by taking pictures three times of the same scene with three coloured filters.
+
+##### The first color photograph made by the three-color method suggested by James Clerk Maxwell in 1855, taken in 1861 by Thomas Sutton. The subject is a colored ribbon, usually described as a tartan ribbon.
+![](first_colored_image.png)
+
+### Digital photography
+
+Two dominant photographic sensors exist: CCD (Charge-Coupled Device) and CMOS (Complementary Metal Oxide Semiconductor) using the photoelectric effect. It quantifies the number of photons hitting a photographic cell array to translate it to numerical data. 
 
 Today, the representation of colour digital images still relies on the superposition of three colour channels: red, green, and blue, so three types of sensors are used. Figure 1.1 shows both absorption spectrums of receptors in the eye and in a Nikon D700 camera look alike.
 In order to take at one instant a picture with three kinds of pho- toreceptors, the most common solution is to use a colour filter array (CFA). It is a mosaic of tiny colour filters placed over the pixel sensors of an image sensor to capture colour information. Multiple subjective designs of the CFA exist. The most popular one is the Bayer Filter, plotted in Figure 1.2.
