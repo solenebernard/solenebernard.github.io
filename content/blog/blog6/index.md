@@ -68,7 +68,7 @@ In order to take at one instant a picture with three kinds of photoreceptors, th
 
 ##### The Bayer CFA. Each two-by-two submosaic contains 2 green, 1 blue, and 1 red filter, each filter covering one pixel sensor.
 <p align="center">
-<img src="bayer.png" width="200"/>
+<img src="bayer.png" width="400"/>
 </p>
 
 The raw image data captured by the image sensor is then converted to a full-colour image (with intensities of all three primary colours represented at each pixel) by a demosaicing algorithm which is tailored for each type of colour filter. Demosaicing consists in interpolating the missing colour values for each pixel from the information captured by neighbouring pixels on the sensor’s colour filter array.
