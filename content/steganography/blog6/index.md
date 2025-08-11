@@ -1,6 +1,6 @@
 ---
 title: "The Science of Colour: How We Got from Theory to Digital Imaging" 
-date: 2024-12-19
+date: 2022-10-30
 tags: ["vision","theory", "colors"]
 author: ["Solène Bernard"]
 description: "From photon to digital images" 
