@@ -39,20 +39,18 @@ It is in [1802 that Young boldly claims](https://www.jstor.org/stable/pdf/107113
 
 ### Maxwell's experiment and first photography protocol
 
-A few years later, inspired from Young's work, [Maxwell demonstrated theoretically in 1855](https://www.jimworthey.com/archive/Maxwell_1855_OCRtext.pdf "Experiments on colour, as perceived by the eye.") that any monochromatic light stimulating three receptors should be able to be equally stimulated by a set of three different monochromatic lights. This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours.
-
+A few years later, inspired from Young's work, [Maxwell demonstrated theoretically in 1855](https://www.jimworthey.com/archive/Maxwell_1855_OCRtext.pdf "Experiments on colour, as perceived by the eye.") that any monochromatic light stimulating three receptors should be able to be equally stimulated by a set of three different monochromatic lights. 
 ##### Quote from Experiments on colour, as perceived by the eye.
 ![](quote_maxwell.png)
 
-Inspired by Mayer and Young's triangle, he formalized he statement by showing that
+Inspired by Mayer and Young's triangle, he formalized he statement by showing that he can reproduce the sensation of any colour by combining with different factors three colors U,V, and EG which stands for Ultramarine, Vermilion and Emerald Green, represented at the angles of an equilateral triangle. Any colour compounded of these three is to be represented by a point found by conceiving masses proportional to the several components of the colour placed at their respective angular points, and taking the centre of gravity of the three masses.
 
-##### (Left) The color triangle of Tobias Mayer was the first formal treatment of the principle, known to artists and dyers, that all colors can be produced by mixing three pigments. (Right) Maxwell's triangle
+##### (Left) The color triangle of Tobias Mayer was the first formal treatment of the principle, known to artists and dyers, that all colors can be produced by mixing three pigments. (Right) Maxwell's triangle, where U,V and EG.
 <p align="left">
-<img align="top" src="mayer_triangle.jpg" width="200"/> <img align="top" src="diagram.png" width="300"/>
+<img align="left" src="mayer_triangle.jpg" width="200"/> <img align="right" src="diagram.png" width="300"/>
 </p>
 
-
-Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
+This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours. Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
 
 ##### The first color photograph made by the three-color method suggested by James Clerk Maxwell in 1855, taken in 1861 by Thomas Sutton. The subject is a colored ribbon, usually described as a tartan ribbon.
 
