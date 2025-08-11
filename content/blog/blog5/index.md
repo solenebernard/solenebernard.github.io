@@ -30,7 +30,7 @@ The cochlea is the part in the inner ear that allows to analyzing sound frequenc
 
 ### Fourier transform
 
-We already talked in a previous post about Fourier transform. We have mathematical definition for the Fourier representation of any temporal signal. But our cochlea is a biological tool that produced the Fourier transform! There is not such this as metameric sounds, and very distinct sound (in the range of hearing of course) will produce another feeling of sound.
+We already talked in a previous post about Fourier transform. We have mathematical definition for the Fourier representation of any temporal signal. But our cochlea is a biological tool that produced the Fourier transform! There is not such thing as metameric sounds, and very distinct sound (in the range of hearing of course) will produce another feeling of sound.
 
 ## What if our ears would work as our eyes?
 

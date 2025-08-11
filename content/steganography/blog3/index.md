@@ -2,7 +2,7 @@
 title: "JPEG compression" 
 date: 2022-11-01
 tags: ["steganography","Fourier", "DCT", "jpeg"]
-# author: ["Solène Bernard"]
+author: ["Solène Bernard"]
 description: "JPEG compression" 
 summary: "Understanding how JPEG compression works is fundamental to perform steganography on compressed digital images." 
 cover:
@@ -32,14 +32,21 @@ The basis of filters is showed below. Horizontal frequencies increase from left 
 <p align="center">
 <img src="64DCTFilters.png" width="500"/>
 </p>
-<!-- ![](64DCTFilters.png) -->
 
+## Compression
 
+The first step of JPEG compression is to apply DCT transform to each 8 × 8 (non-overlapping) block of the spatial image.
 
+Then there is a quantization step, which is the step which produces data loss, leading to compression. During quantization, the DCT coefficient $d[i, j]$ is divided by quantization step $q[i, j]$ from the quantization matrix q and then rounded to their closest integers.
 
+The larger are the quantization steps, the fewer bits are needed to code all the image coefficients, but the more the image quality is damaged.
+
+The JPEG standard recommends a set of quantization matrices indexed by a quality factor f which is an integer between 1 and 100. Below an example of an image with different quality factors. The more the quality factor is close to 100, the more the decompressed image is close to the original image. For low-quality factors, artefacts due to 8 × 8 block-wise DCT transform are apparent.
 
 ##### Vizualization of effect of image JPEG compression for three quality factors, f = 25, 50 and 100.
 <!-- <p align="center">
 <img src="effectQF.png" width="800"/>
 </p> -->
 ![](effectQF.png)
+
+
