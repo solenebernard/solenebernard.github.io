@@ -1,5 +1,5 @@
 ---
-title: "The Science of Colour: How We Got from Theory to Digital Imaging" 
+title: "The science of colour: from theory to digital imaging technology" 
 date: 2022-10-30
 tags: ["vision","theory", "colors"]
 author: ["Solène Bernard"]
@@ -14,7 +14,8 @@ disableAnchoredHeadings: false
 
 ---
 
-Photography, which means etymologically "describing with light” is the ambitious challenge to convert into an object the environment which created a physical visual sensation in a human.
+Photography, etymologically meaning ‘writing with light,’ involves the objective capture and translation of the spatial and spectral properties of light— which produce visual sensations in humans—into a permanent physical representation.
+
 This technique is more than standard today, as it is part of our daily lives as all of our smartphones can take pictures. However, until the last century, photography was not ordinary, requiring considerable technological and scientific progress.
 
 ## A brief history of colour theory
@@ -61,7 +62,7 @@ Today, the representation of colour digital images still relies on the superposi
 
 ##### Normalized response of the three cones S, M, L of the human eye (left) and of the three color channels of a Nikon D700 device (right).
 <p align="center">
-<img src="spectrum2.png" width="400"/>
+<img src="spectrum2.png" width="600"/>
 </p>
 
 In order to take at one instant a picture with three kinds of photoreceptors, the most common solution is to use a colour filter array (CFA). It is a mosaic of tiny colour filters placed over the pixel sensors of an image sensor to capture colour information. Multiple subjective designs of the CFA exist. The most popular one is the Bayer Filter, plotted below.
