@@ -33,7 +33,7 @@ This paper proposes an algorithm which allows Alice to simulate the game played 
 
 ##### Figure X: Figure caption
 
-![](paper1.png)
+![](ternarychanges_softmaxgumbel.png)
 
 ---
 
