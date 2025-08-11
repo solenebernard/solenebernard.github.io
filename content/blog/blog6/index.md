@@ -15,4 +15,4 @@ disableAnchoredHeadings: false
 ---
 
 ##### Live metro location
-[View interactive metro map](metro_map.html)
+<iframe src="metro_map.html" width="1000" ></iframe>
