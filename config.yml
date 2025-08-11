@@ -62,6 +62,8 @@ consequat."
           buttons:
             - name: Papers
               url: papers/
+            - name: Steganography
+              url: steganography/
             - name: Blog
               url: blog/
             - name: Art
