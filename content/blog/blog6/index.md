@@ -45,7 +45,7 @@ Inspired by Mayer and Young's triangle, he formalized he statement by showing th
 
 ##### (Left) The color triangle of Tobias Mayer was the first formal treatment of the principle, known to artists and dyers, that all colors can be produced by mixing three pigments. (Right) Maxwell's triangle, where U,V and EG.
 <p align="left">
-<img align="left" src="mayer_triangle.jpg" width="400"/> <img align="right" src="diagram.png" width="400"/>
+<img align="left" src="mayer_triangle.jpg" width="310"/> <img align="right" src="diagram.png" width="400"/>
 </p>
 
 This would mean that a superposition of three colours could reproduce every sensation of colour. Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
