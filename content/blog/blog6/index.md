@@ -46,12 +46,9 @@ A few years later, inspired from Young's work, [Maxwell demonstrated theoretical
 
 Inspired by Mayer and Young's triangle, he formalized he statement by showing that
 
-#####  
-![](mayer_triangle.jpg)
-
 ##### (Left) The color triangle of Tobias Mayer was the first formal treatment of the principle, known to artists and dyers, that all colors can be produced by mixing three pigments. (Right) Maxwell's triangle
 <p align="left">
-<img src="mayer_triangle.png" width="100"/>
+<img src="mayer_triangle.jpg" width="200"/>
 <img src="diagram.png" width="200"/>
 </p>
 
