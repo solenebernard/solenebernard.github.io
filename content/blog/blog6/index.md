@@ -22,11 +22,11 @@ disableAnchoredHeadings: false
 Photography, which means etymologically “coloring with light” is the ambitious challenge to convert into an object the environment which created a physical sensation in a human.
 This technique is more than standard today, as it is part of our daily lives as all of our smartphones can take pictures. However, until the last century, photography was not ordinary, requiring considerable technological and scientific progress.
 
-In order to create coloured photography, researchers first looked for the biological composition of the human eye. It is in [1802 that Young boldly claims](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, which he names *point of the retina*, each of which are sensitive to a particular range of visible light, which are today called named short, medium, or large given their size. It came more from speculation following Newton's work than a experiment showing.  Young wrote in *The Bakerian Lecture: On the Theory of Light and Colours*:
+In order to create coloured photography, researchers first looked for the biological composition of the human eye. It is in [1802 that Young boldly claims](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, which he names *point of the retina*, each of which are sensitive to a particular range of visible light, which are today called named short, medium, or large given their size. It came more from speculation following Newton's work than a experiment showing. Young wrote in *The Bakerian Lecture: On the Theory of Light and Colours*:
 
 > *Scholium*. Since, for the reason here assigned by Newton, it is probable that the motion of the retina is rather of a vibratory than of an undulatory nature, the frequency of the vibrations must be dependent on the constitution of this substance. **Now, as it is almost impossible to conceive each sensitive point of the retina to contain an infinite number of particles each capable of vibrating in perfect unison with every possible undulation, it becomes necessary to suppose the number limited, for instance, to the three principal colours, red, yellow, and blue**, of which the undulations are related in magnitude nearly as the numbers 8, 7, and 6.
 
-A few years later, inspired from Young's work, [Maxwell demonstrated theoretically in 1855](https://www.jimworthey.com/archive/Maxwell_1855_OCRtext.pdf "Experiments on colour, as perceived by the eye.") that any monochromatic light stimulating three receptors should be able to be equally stimulated by a set of three different monochromatic lights. This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours. Therefore, the first colour photography was produced by taking pictures three times of the same scene with three coloured filters.
+A few years later, inspired from Young's work, [Maxwell demonstrated theoretically in 1855](https://www.jimworthey.com/archive/Maxwell_1855_OCRtext.pdf "Experiments on colour, as perceived by the eye.") that any monochromatic light stimulating three receptors should be able to be equally stimulated by a set of three different monochromatic lights. This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours. 
 
 ##### Quote from Experiments on colour, as perceived by the eye.
 ![](quote_maxwell.png)
@@ -34,7 +34,10 @@ A few years later, inspired from Young's work, [Maxwell demonstrated theoretical
 Inspired by Mayer and Young's triangle, he formalized he statement by showing that
 
 ##### Maxwell's triangle
+![](mayer_triangle.png)
 ![](diagram.png)
+
+Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
 
 ##### The first color photograph made by the three-color method suggested by James Clerk Maxwell in 1855, taken in 1861 by Thomas Sutton. The subject is a colored ribbon, usually described as a tartan ribbon.
 ![](first_colored_image.png)
