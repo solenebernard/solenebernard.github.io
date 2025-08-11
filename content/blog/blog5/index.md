@@ -50,8 +50,6 @@ Let's find a sound signal $I(f, t)$, such that, $\forall t$:
 
 
 
-
-
 ## Do we hear more than we see?
 
 We can argue that we hear more than we see because of how is encoded information. The space of hearable signals is way bigger than the one of visible colors. 
