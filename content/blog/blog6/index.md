@@ -28,7 +28,7 @@ Isaac Newton’s work on colour was groundbreaking in the 17th century — he wa
 
 ##### The first colour wheel: Newton's colour circle
 <p align="center">
-<img src="newtons_colour_circle.png" width="200" height="200" />
+<img src="newtons_colour_circle.png" width="300"/>
 </p>
 
 ### Young's speculation on the biology of the eye
@@ -51,8 +51,8 @@ Inspired by Mayer and Young's triangle, he formalized he statement by showing th
 
 ##### Maxwell's triangle
 <p align="center">
-<img src="diagram.png" width="400" style="float:left"/>
-<img src="newtons_colour_circle.png" width="400" style="float:right"/>
+<img src="mayer_triangle.png" width="200" style="float:left"/>
+<img src="diagram.png" width="200" style="float:right"/>
 </p>
 
 Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
