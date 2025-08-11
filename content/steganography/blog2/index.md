@@ -4,7 +4,7 @@ date: 2022-10-30
 tags: ["vision","theory", "colors"]
 author: ["Solène Bernard"]
 description: "From photon to digital images" 
-summary: "Because my thesis aims at hiding information in digital images, let's first dive into the origins of photography and then digital images." 
+summary: "Because my thesis aims at hiding information in digital images, let's first dive into the origins of colour theory and then digital images." 
 cover:
     image: "imagecolor.png"
     alt: "colored image"

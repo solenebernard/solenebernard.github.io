@@ -11,9 +11,9 @@ cover:
     relative: false
 showToc: true
 disableAnchoredHeadings: false
-editPost:
-    URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
-    Text: "YouTube playlist"
+# editPost:
+#     URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
+#     Text: "YouTube playlist"
 # bibliography: biblio.bib
 
 ---
