@@ -30,7 +30,7 @@ This technique is more than standard today, as it is part of our daily lives as 
 
 ### Young's speculation on the biology of the eye
 
-It is in [1802 that Young boldly claimed](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, which he named *point of the retina*, each of which are sensitive to a particular range of visible light, which are today called named short, medium, or large given their size. It came more from speculation following Newton's work than a experiment showing it. Young wrote in *The Bakerian Lecture: On the Theory of Light and Colours*:
+It is in [1802 that Young boldly claimed](https://www.jstor.org/stable/pdf/107113.pdf "The Bakerian Lecture: On the Theory of Light and Colours") that it exists three types of photoreceptors (now known as cone cells) in the human eye, which he named *point of the retina*, each of which are sensitive to a particular range of visible light, which are today called named short, medium, or large given their size. It came as a speculation following Newton’s work, and although Young did not experimentally verify it, it is remarkable that later discoveries proved him correct. Young wrote in *The Bakerian Lecture: On the Theory of Light and Colours*:
 
 > Now, as it is almost impossible to conceive each sensitive point of the retina to contain an infinite number of particles each capable of vibrating in perfect unison with every possible undulation, it becomes necessary to suppose the number limited, for instance, to the three principal colours, red, yellow, and blue, of which the undulations are related in magnitude nearly as the numbers 8, 7, and 6.
 
@@ -55,19 +55,24 @@ This would mean that a superposition of three colours could reproduce every sens
 <img src="first_colored_image.png" width="400"/>
 </p>
 
-## Digital photography
+## Digital colour photography
 
-Two dominant photographic sensors exist: CCD (Charge-Coupled Device) and CMOS (Complementary Metal Oxide Semiconductor) using the photoelectric effect. It quantifies the number of photons hitting a photographic cell array to translate it to numerical data. 
+Today, the representation of colour digital images still relies on the superposition of three colour channels: red, green, and blue, so three types of sensors are used. Figure below shows both absorption spectrums of receptors in the eye and in a Nikon D700 camera look alike.
 
-Today, the representation of colour digital images still relies on the superposition of three colour channels: red, green, and blue, so three types of sensors are used. Figure 1.1 shows both absorption spectrums of receptors in the eye and in a Nikon D700 camera look alike.
-In order to take at one instant a picture with three kinds of photoreceptors, the most common solution is to use a colour filter array (CFA). It is a mosaic of tiny colour filters placed over the pixel sensors of an image sensor to capture colour information. Multiple subjective designs of the CFA exist. The most popular one is the Bayer Filter, plotted in Figure 1.2.
+##### Normalized response of the three cones S, M, L of the human eye (left) and of the three color channels of a Nikon D700 device (right).
+<p align="center">
+<img src="spectrum2.png" width="300"/>
+</p>
+
+In order to take at one instant a picture with three kinds of photoreceptors, the most common solution is to use a colour filter array (CFA). It is a mosaic of tiny colour filters placed over the pixel sensors of an image sensor to capture colour information. Multiple subjective designs of the CFA exist. The most popular one is the Bayer Filter, plotted below.
 
 ##### The Bayer CFA. Each two-by-two submosaic contains 2 green, 1 blue, and 1 red filter, each filter covering one pixel sensor.
 <p align="center">
-<img src="bayer.png" width="400"/>
+<img src="bayer.png" width="200"/>
 </p>
 
+The raw image data captured by the image sensor is then converted to a full-colour image (with intensities of all three primary colours represented at each pixel) by a demosaicing algorithm which is tailored for each type of colour filter. Demosaicing consists in interpolating the missing colour values for each pixel from the information captured by neighbouring pixels on the sensor’s colour filter array.
 
-The raw image data captured by the image sensor is then converted to a full-colour image (with intensities of all three primary colours represented at each pixel) by a demosaicing algorithm which is tailored for each type of colour filter. Gray scale images are coded only with one channel. It contains the luminance Y , which is equal to a linear combination of the three color channels R, G and B:
+Gray scale images are coded only with one channel. It contains the luminance Y , which is equal to a linear combination of the three color channels R, G and B:
 
 $Y = 0.299R + 0.587G + 0.114B$
