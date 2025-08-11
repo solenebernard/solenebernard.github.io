@@ -27,7 +27,7 @@ This technique is more than standard today, as it is part of our daily lives as 
 Isaac Newton’s work on colour was groundbreaking in the 17th century — he was the first to show, through systematic experiments, that white light is composed of many different colours, and that colours are a property of light itself, not of objects. Newton devised one of the first colour circles, arranging spectral colours around a wheel and showing that mixing certain pairs (e.g., red and blue) could produce others (e.g., purple), which do not appear in the spectrum. He also noted that mixing all spectral colours in proper proportions yields white.
 
 ##### The first colour wheel: Newton's colour circle
-![](newtons_colour_circle.png)
+![](newtons_colour_circle.png =x250)
 
 ### Young's speculation on the biology of the eye
 
