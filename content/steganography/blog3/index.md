@@ -21,14 +21,16 @@ In digital image processing, this principle underpins compression algorithms suc
 ## Discrete Cosinus Transform
 The most famous compression algorithm JPEG was motivated by the challenge of finding a new representation of images where the content of images can be represented in fewer features than the number of pixels in the image. It relies on the Discrete Cosinus Transform (DCT) proposed by Nasir Ahmed in 1972 which is derived from the Discrete Fourier Transform (DFT).
 
-Any spacial image described with pixels can be also expressed a weigthed sum of filters, where filters have from low to high frequency. Often, an image is compressed block by block, often of size $8 \times 8$. In the next figure there is an example of an image of $64$ pixels, which is decomposed as a weighted sum of $64$ filters. The weights are called *DCT coefficients*.
+Any image can be also expressed as a weighted sum of filters, where filters have from low to high frequency. Often, an image is compressed block by block, often of size $8 \times 8$. In the next figure there is an example of an image of $64$ pixels, which is decomposed as a weighted sum of $64$ filters. The weights are called *DCT coefficients*.
 
 ##### Decomposition of a 8 × 8 spatial image into a linear combination of 64 DCT filters.
 ![](DCTFilters.png)
 
-##### Visualization of the 64 DCT Filters F[i,j], where i is for the row and j for the column. Horizontal frequencies increase from left to right (with increasing j), and vertical frequencies increase from top to bottom (with increasing i). The constant-valued basis function at the upper left is often called the DC basis function, and the corresponding DCT coefficient d[0, 0], the DC coefficient.
+The basis of filters is showed below. Horizontal frequencies increase from left to right (with increasing j), and vertical frequencies increase from top to bottom (with increasing i). The constant-valued basis function at the upper left is often called the DC basis function, and the corresponding DCT coefficient d[0, 0], the DC coefficient.
+
+##### Visualization of the 64 DCT Filters F[i,j], where i is for the row and j for the column. 
 <p align="center">
-<img src="64DCTFilters.png" width="800"/>
+<img src="64DCTFilters.png" width="500"/>
 </p>
 <!-- ![](64DCTFilters.png) -->
 
