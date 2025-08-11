@@ -19,8 +19,10 @@ disableAnchoredHeadings: false
 
 ### What is photography
 
-Photography, which means etymologically “coloring with light” is the ambitious challenge to convert into an object the environment which created a physical sensation in a human.
+Photography, which means etymologically "describing with light” is the ambitious challenge to convert into an object the environment which created a physical visual sensation in a human.
 This technique is more than standard today, as it is part of our daily lives as all of our smartphones can take pictures. However, until the last century, photography was not ordinary, requiring considerable technological and scientific progress.
+
+## The foundation of colour theory
 
 ### Newton's pioneer work
 
@@ -53,6 +55,9 @@ Inspired by Mayer and Young's triangle, he formalized he statement by showing th
 This would mean that a superposition of three colours could reproduce every sensation of colour, therefore called primary colours. Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
 
 ##### The first color photograph made by the three-color method suggested by James Clerk Maxwell in 1855, taken in 1861 by Thomas Sutton. The subject is a colored ribbon, usually described as a tartan ribbon.
+<p align="center">
+<img src="first_colored_image.png" width="300"/>
+</p>
 
 
 ### Digital photography
