@@ -50,14 +50,15 @@ Inspired by Mayer and Young's triangle, he formalized he statement by showing th
 ![](mayer_triangle.jpg)
 
 ##### Maxwell's triangle
-![](diagram.png)
+<p align="center">
+<img src="diagram.png" width="400" style="float:left"/>
+<img src="newtons_colour_circle.png" width="400" style="float:right"/>
+</p>
 
 Therefore, the first colour photography was produced by following Maxwell's protocol, by taking pictures three times of the same scene with three coloured filters.
 
 ##### The first color photograph made by the three-color method suggested by James Clerk Maxwell in 1855, taken in 1861 by Thomas Sutton. The subject is a colored ribbon, usually described as a tartan ribbon.
-<p align="center">
-<img src="newtons_colour_circle.png" width="400" />
-</p>
+
 
 ### Digital photography
 
