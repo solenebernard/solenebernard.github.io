@@ -61,18 +61,16 @@ Today, the representation of colour digital images still relies on the superposi
 
 ##### Normalized response of the three cones S, M, L of the human eye (left) and of the three color channels of a Nikon D700 device (right).
 <p align="center">
-<img src="spectrum2.png" width="300"/>
+<img src="spectrum2.png" width="400"/>
 </p>
 
 In order to take at one instant a picture with three kinds of photoreceptors, the most common solution is to use a colour filter array (CFA). It is a mosaic of tiny colour filters placed over the pixel sensors of an image sensor to capture colour information. Multiple subjective designs of the CFA exist. The most popular one is the Bayer Filter, plotted below.
 
 ##### The Bayer CFA. Each two-by-two submosaic contains 2 green, 1 blue, and 1 red filter, each filter covering one pixel sensor.
 <p align="center">
-<img src="bayer.png" width="400"/>
+<img src="bayer.png" width="200"/>
 </p>
 
 The raw image data captured by the image sensor is then converted to a full-colour image (with intensities of all three primary colours represented at each pixel) by a demosaicing algorithm which is tailored for each type of colour filter. Demosaicing consists in interpolating the missing colour values for each pixel from the information captured by neighbouring pixels on the sensor’s colour filter array.
 
-Gray scale images are coded only with one channel. It contains the luminance Y , which is equal to a linear combination of the three color channels R, G and B:
-
-$Y = 0.299R + 0.587G + 0.114B$
+From Newton’s prism to Maxwell’s tartan ribbon, the science of colour has shaped today’s cameras, which still build every image from just three colours: red, green, and blue.
