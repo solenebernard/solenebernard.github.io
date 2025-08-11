@@ -14,15 +14,24 @@ disableAnchoredHeadings: false
 
 ---
 
-The pioneering work of Joseph Fourier in the early 19th century on representing functions as sums of sinusoidal components (now formalized as the Fourier transform), has become a fundamental tool across scientific and engineering disciplines. Fourier analysis allows signals to be expressed in the frequency domain, facilitating efficient manipulation and interpretation of data. In digital image processing, this principle underpins compression algorithms such as JPEG, which rely on transforming spatial pixel data into frequency components to exploit redundancies and perceptual limitations of the human visual system. By isolating and quantifying the image’s frequency content, JPEG compression selectively reduces or eliminates high-frequency details that are less perceptible, achieving significant data reduction while maintaining visual fidelity. 
+The pioneering work of Joseph Fourier in the early 19th century on representing functions as sums of sinusoidal components (now formalized as the Fourier transform), has become a fundamental tool across scientific and engineering disciplines. Fourier analysis allows signals to be expressed in the frequency domain, facilitating efficient manipulation and interpretation of data. I also used the results of his research for the music analysis algorithm in the blog section! In digital image processing, this principle underpins compression algorithms such as JPEG, which rely on transforming spatial pixel data into frequency components to exploit redundancies and perceptual limitations of the human visual system. By isolating and quantifying the image’s frequency content, JPEG compression selectively reduces or eliminates high-frequency details that are less perceptible, achieving significant data reduction while maintaining visual fidelity.
 
 The most famous compression algorithm JPEG was motivated by the challenge of finding a new representation of images where the content of images can be represented in fewer features than the number of pixels in the image. It relies on the Discrete Cosinus Transform (DCT) proposed by Nasir Ahmed in 1972 which is derived from the Discrete Fourier Transform (DFT).
 
+Any spacial image described with pixels can be also expressed a weigthed sum of filters, where filters have from low to high frequency. Often, an image is compressed block by block, often of size $8 \times 8$.
+
+##### Decomposition of a 8 × 8 spatial image into a linear combination of 64 DCT filters.
+![](DCTFilters.png)
+
 ##### Visualization of the 64 DCT Filters F[i,j], where i is for the row and j for the column. Horizontal frequencies increase from left to right (with increasing j), and vertical frequencies increase from top to bottom (with increasing i). The constant-valued basis function at the upper left is often called the DC basis function, and the corresponding DCT coefficient d[0, 0], the DC coefficient.
-<!-- <p align="center">
+<p align="center">
 <img src="64DCTFilters.png" width="800"/>
-</p> -->
-![](64DCTFilters.png)
+</p>
+<!-- ![](64DCTFilters.png) -->
+
+
+
+
 
 ##### Vizualization of effect of image JPEG compression for three quality factors, f = 25, 50 and 100.
 <!-- <p align="center">
