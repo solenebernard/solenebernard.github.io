@@ -61,6 +61,9 @@ Replacing arg max in Equation by a softmax approximation with temperature leads 
 
 $$\tilde{b}_\tau=\mathrm{SG}_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j $ with $ \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
 
+The gradient of the continuous modification $\tilde{b}_\tau$ w.r.t. $\pi$ are
+easy to compute and have non-zero values. It can be conveniently plugged in the chain rule although the resulting gradient is biased when $\tau > 0$. Figure below offers a visualization of the influence of $tau$ on the output of the Softmax-Gumbel (SG) function, for a fixed realization of a random vector g and fixed probability vector $\pi$.
+
 #### Pseudo code for the proposed procedure
 
 ![](pseudocode.png)
