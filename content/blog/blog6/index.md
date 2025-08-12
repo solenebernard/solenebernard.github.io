@@ -14,7 +14,11 @@ disableAnchoredHeadings: false
 
 ---
 
-RATP, the parisian transportation company gives in [open data](https://data.iledefrance-mobilites.fr/) details about live traffic, including 
+RATP, the parisian transportation company gives in [open data](https://data.iledefrance-mobilites.fr/) details about live traffic, including at what time arrives the next train at each station.
+
+Because there is no exact localisation of the metro, we could infer the exact position of each metro by:
+- computing the average duration and distance between each pair of consecutive stations
+- computing the path length between 
 
 ##### Live metro location
 <!-- <iframe src="metro_map.html" width="8000" ></iframe> -->
