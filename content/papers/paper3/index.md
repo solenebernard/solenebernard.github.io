@@ -36,7 +36,7 @@ A minmax protocol offers a general method to automatically optimize steganograph
 The idea we propose is to optimize the cost $\rho$ w.r.t. the detectability of a detector $f$ by a standard optimization. We will use gradient descent on the costs in order to decrease
 $f(y)$. In the usual gradient descent setting, we need to compute the gradient $\nabla_{\boldsymbol{\rho}} \mathbb{E}[f(\mathbf{y})]$, and for a given  $\rho$, we would update it by the following formula
 
-$ \boldsymbol{\rho} \leftarrow \boldsymbol{\rho}-\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. \mid \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})] $
+$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho}-\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. \mid \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})]$$
 
 
 ### Softmax Gumbel
@@ -45,21 +45,21 @@ Calculating the gradient of the expectation of a discrete probability distributi
 of giving a general formula to draw samples according to any discrete distribution so that it can be used without a modification for n-ary coding, and its theoretical properties
 are well analyzed. It can be shown that discrete modifications can be drawn by sampling $g = (g^j)_{j\in B}$, which is a vector of independent entries sampled from the standard Gumbel distribution G(0, 1), and applying the following deterministic function:
 
-$ b=\mathrm{HG}(\boldsymbol{\pi}, \mathbf{g})=\underset{i \in \mathcal{R}}{\arg \max }\left(g^j+\log \pi^j\right) $
+$$b=\mathrm{HG}(\boldsymbol{\pi}, \mathbf{g})=\underset{i \in \mathcal{R}}{\arg \max }\left(g^j+\log \pi^j\right)$$
 
 In the above function $HG$ (called Hardmax Gumbel), the $\arg \max$ can be conveniently replaced by the softmax function:
 
-$ \operatorname{softmax}\left(v^1, \ldots, v^n\right)=\frac{1}{\sum_{k=1}^n e^{v^k}}\left(e^{v^1}, \ldots, e^{v^n}\right) $
+$$\operatorname{softmax}\left(v^1, \ldots, v^n\right)=\frac{1}{\sum_{k=1}^n e^{v^k}}\left(e^{v^1}, \ldots, e^{v^n}\right)$$
 
 which is a well-known approximation of arg max, as can be seen from 
 
-$ \lim _{\tau \rightarrow 0} \operatorname{softmax}\left(\frac{v^1}{\tau}, \ldots, \frac{v^n}{\tau}\right)=(0,0 \ldots, 0,1,0, \ldots, 0) $
+$$\lim _{\tau \rightarrow 0} \operatorname{softmax}\left(\frac{v^1}{\tau}, \ldots, \frac{v^n}{\tau}\right)=(0,0 \ldots, 0,1,0, \ldots, 0)$$
 
 where the $1$ is on $\arg\max_i v^i$ position and $\tau$ is a temperature parameter controlling the smoothness of the approximation.
 
 Replacing arg max in Equation by a softmax approximation with temperature leads to 
 
-$ \tilde{b}_\tau=\mathrm{SG}_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j $ with $ \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right) $
+$$\tilde{b}_\tau=\mathrm{SG}_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j $ with $ \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
 
 #### Pseudo code for the proposed procedure
 
