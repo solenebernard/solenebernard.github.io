@@ -6,7 +6,7 @@ author: ["Solène Bernard"]
 description: "JPEG compression" 
 summary: "Understanding how JPEG compression works is fundamental to perform steganography on compressed digital images." 
 cover:
-    image: "DCTFilters.png"
+    image: "effectQF.png"
     alt: "filters"
     relative: false
 showToc: true
@@ -14,7 +14,7 @@ disableAnchoredHeadings: false
 
 ---
 
-The pioneering work of Joseph Fourier in the early 19th century on representing functions as sums of sinusoidal components (now formalized as the Fourier transform), has become a fundamental tool across scientific and engineering disciplines. Fourier analysis allows signals to be expressed in the frequency domain, facilitating efficient manipulation and interpretation of data. I also used the results of his research for the music analysis algorithm in the blog section!
+Joseph Fourier did many fundamental discoveries on many field, in particular in mathematics on representing functions as sums of sinusoidal components (now formalized as the Fourier transform). It has become a fundamental tool across scientific and engineering disciplines. Fourier analysis allows signals to be expressed in the frequency domain, which can help for transforming into more interpretable data, and also to solve differential equations.
 
 In digital image processing, this principle underpins compression algorithms such as JPEG, which rely on transforming spatial pixel data into frequency components to exploit redundancies and perceptual limitations of the human visual system. By isolating and quantifying the image’s frequency content, JPEG compression selectively reduces or eliminates high-frequency details that are less perceptible, achieving significant data reduction while maintaining visual fidelity.
 
