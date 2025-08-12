@@ -28,6 +28,7 @@ editPost:
 ##### Abstract
 
 A minmax protocol offers a general method to automatically optimize steganographic algorithm against a wide class of steganalytic detectors. The quality of the resulting steganograhic algorithm depends on the ability to find an “adversarial” stego image undetectable by a set of detectors while communicating a given message. Despite minmax protocol instantiated with ADV-EMB scheme leading to unexpectedly good results, we show it suffers a significant flaw and we present a theoretically sound solution called Backpack. Extensive experimental verification of minmax protocol with Backpack shows superior performance to ADV-EMB, the generality of the tool by targeting a new JPEG QF100 compatibility attack and further improves the security of steganographic algorithms.
+
 ---
 
 ## Min-max iterative protocol
@@ -40,7 +41,7 @@ A minmax protocol offers a general method to automatically optimize steganograph
 
 ## Backpack: BACKPropagable attACK
 
-See on the Figure below the different function $b_{\tau}$ for different $\tau$. For a given value of triplet $g = (g_{−1}, g_{0}, g_{+1})$ (where $g_j ∼ G(0, 1)$ are independently drawn from Gumbel standard distribution), the value of the modification $b_{\tau} = SG(p, g)$ is plotted the z-axis for all possible triplets of probabilities $p = (g_{−1}, g_{0}, g_{+1})$, and for 4 values of $\tau$ . The triplets are plotted in the trilinear coordinate system.
+See on the Figure below the different function $b_{\tau}$ for different $\tau$. For a given value of triplet $g = (g^{−1}, g^{0}, g^{+1})$ (where $g^j ∼ G(0, 1)$ are independently drawn from Gumbel standard distribution), the value of the modification $\tilde{b}_{\tau} = SG(p, g)$ is plotted the z-axis for all possible triplets of probabilities $p = (p^{−1}, p^{0}, g^{+1})$, and for 4 values of $\tau$ . The triplets are plotted in the trilinear coordinate system.
 ##### Softmax Gumbel function 
 
 ![](ternarychanges_softmaxgumbel.png)
