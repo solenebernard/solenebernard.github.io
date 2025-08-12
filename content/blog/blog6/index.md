@@ -3,8 +3,8 @@ title: "Parisian metro"
 date: 2025-07-15
 tags: ["hearing","theory", "frequency", "Fourier", "cochlea"]
 author: ["Solène Bernard"]
-description: "We're hearing more than we're seeing." 
-summary: "After diving into color perception in the previous blog post, I got interested into understanding more another sensor that mammals have: hearing. Light is a electromagnetic wave, where sound is a mechanical one, but the comparison is relevant because both sound and light signals can be described as a spectrum of wavelenght." 
+description: "" 
+summary: "Using RATP open data for live visualisation." 
 cover:
     image: "presentation.png"
     alt: "sound signal"
@@ -14,7 +14,7 @@ disableAnchoredHeadings: false
 
 ---
 
-RATP, the parisian transportation company gives in [open data](https://data.iledefrance-mobilites.fr/) details about live traffic, including
+RATP, the parisian transportation company gives in [open data](https://data.iledefrance-mobilites.fr/) details about live traffic, including 
 
 ##### Live metro location
 <!-- <iframe src="metro_map.html" width="8000" ></iframe> -->
