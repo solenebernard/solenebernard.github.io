@@ -31,6 +31,12 @@ A minmax protocol offers a general method to automatically optimize steganograph
 
 ---
 
+The idea we propose is to optimize the cost ρ w.r.t. the detectability of a detector f by a standard optimization. We will use gradient descent on the costs in order to decrease
+f(y). In the usual gradient descent setting, we need to compute
+the gradient $\nabla_{\boldsymbol{\rho}} \mathbb{E}[f(\mathbf{y})]$, and for a given ρ, we would update it by the following formula
+
+$$ \boldsymbol{\rho} \leftarrow \boldsymbol{\rho}-\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. \mid \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})] $$
+
 ## Min-max iterative protocol
 
 #### Pseudo code for the proposed procedure
