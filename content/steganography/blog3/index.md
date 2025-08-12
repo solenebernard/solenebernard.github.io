@@ -6,8 +6,8 @@ author: ["Solène Bernard"]
 description: "JPEG compression" 
 summary: "Understanding how JPEG compression works is fundamental to perform steganography on compressed digital images." 
 cover:
-    image: "DCTFilters.png"
-    alt: "colored image"
+    image: "effectQF.png"
+    alt: "filters"
     relative: false
 showToc: true
 disableAnchoredHeadings: false
