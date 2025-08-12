@@ -40,7 +40,6 @@ $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho}-\alpha \nabla_\rho \mathbb{E}_{
 
 
 ### Softmax Gumbel
-
 Calculating the gradient of the expectation of a discrete probability distribution with respect to its parameters is a very well-studied problem. From the vast prior art, we have chosen the method relying on the Gumbel distribution. This technique has the advantage
 of giving a general formula to draw samples according to any discrete distribution so that it can be used without a modification for n-ary coding, and its theoretical properties
 are well analyzed. It can be shown that discrete modifications can be drawn by sampling $g = (g^j)_{j\in B}$, which is a vector of independent entries sampled from the standard Gumbel distribution G(0, 1), and applying the following deterministic function:
@@ -59,7 +58,7 @@ where the $1$ is on $\arg\max_i v^i$ position and $\tau$ is a temperature parame
 
 Replacing arg max in Equation by a softmax approximation with temperature leads to 
 
-$$\tilde{b}_\tau=SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j $ with $ \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
+$$\tilde{b}_\tau=SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
 
 The gradient of the continuous modification $\tilde{b}_\tau$ w.r.t. $\pi$ are
 easy to compute and have non-zero values. It can be conveniently plugged in the chain rule although the resulting gradient is biased when $\tau > 0$. Figure below offers a visualization of the influence of $tau$ on the output of the Softmax-Gumbel (SG) function, for a fixed realization of a random vector g and fixed probability vector $\pi$.
