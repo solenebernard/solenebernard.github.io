@@ -64,6 +64,11 @@ $$\tilde{b}_\tau=\mathrm{SG}_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mat
 The gradient of the continuous modification $\tilde{b}_\tau$ w.r.t. $\pi$ are
 easy to compute and have non-zero values. It can be conveniently plugged in the chain rule although the resulting gradient is biased when $\tau > 0$. Figure below offers a visualization of the influence of $tau$ on the output of the Softmax-Gumbel (SG) function, for a fixed realization of a random vector g and fixed probability vector $\pi$.
 
+See on the Figure below the different function $b_{\tau}$ for different $\tau$. For a given value of triplet $g = (g^{−1}, g^{0}, g^{+1})$ (where $g^j ∼ G(0, 1)$ are independently drawn from Gumbel standard distribution), the value of the modification $\tilde{b}_{\tau} = SG(p, g)$ is plotted the z-axis for all possible triplets of probabilities $p = (p^{−1}, p^{0}, g^{+1})$, and for 4 values of $\tau$ . The triplets are plotted in the trilinear coordinate system.
+
+##### Softmax Gumbel function 
+![](ternarychanges_softmaxgumbel.png)
+
 #### Pseudo code for the proposed procedure
 
 ![](pseudocode.png)
@@ -72,10 +77,6 @@ easy to compute and have non-zero values. It can be conveniently plugged in the 
 
 ## Backpack: BACKPropagable attACK
 
-See on the Figure below the different function $b_{\tau}$ for different $\tau$. For a given value of triplet $g = (g^{−1}, g^{0}, g^{+1})$ (where $g^j ∼ G(0, 1)$ are independently drawn from Gumbel standard distribution), the value of the modification $\tilde{b}_{\tau} = SG(p, g)$ is plotted the z-axis for all possible triplets of probabilities $p = (p^{−1}, p^{0}, g^{+1})$, and for 4 values of $\tau$ . The triplets are plotted in the trilinear coordinate system.
-##### Softmax Gumbel function 
-
-![](ternarychanges_softmaxgumbel.png)
 
 
 ---
