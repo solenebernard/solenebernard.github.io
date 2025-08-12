@@ -31,15 +31,20 @@ This paper proposes an algorithm which allows Alice to simulate the game played 
 
 ---
 
-##### Figure X: Figure caption
-
-![](ternarychanges_softmaxgumbel.png)
-
----
+## Min-max iterative protocol
 
 #### Pseudo code for the proposed procedure
 
 ![](pseudocode.png)
+
+---
+
+## Backpack: Back-propagatable attack
+
+##### Figure X: Figure caption
+
+![](ternarychanges_softmaxgumbel.png)
+
 
 ---
 
@@ -59,11 +64,13 @@ Solène Bernard, Patrick Bas, John Klein, Tomas Pevny. 2020. "Explicit Optimizat
 }
 ```
 
+
+<!-- 
 ---
 
 ##### Related material
 
 + [Presentation slides](presentation1.pdf)
 + [Dissertation title](https://escholarship.org/uc/item/7jr3m96r) – PhD dissertation on which this paper is based.
-+ [Column title](https://cep.lse.ac.uk/pubs/download/cp365.pdf) – Nontechnical column describing the paper.
++ [Column title](https://cep.lse.ac.uk/pubs/download/cp365.pdf) – Nontechnical column describing the paper. -->
 
