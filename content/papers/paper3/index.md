@@ -40,7 +40,8 @@ A minmax protocol offers a general method to automatically optimize steganograph
 
 ## Backpack: BACKPropagable attACK
 
-##### Figure X: Figure caption
+See on the Figure below the different function $b_{\tau}$ for different $\tau$. For a given value of triplet $g = (g_{−1}, g_{0}, g_{+1})$ (where $g_j ∼ G(0, 1)$ are independently drawn from Gumbel standard distribution), the value of the modification $b_{\tau} = SG(p, g)$ is plotted the z-axis for all possible triplets of probabilities $p = (g_{−1}, g_{0}, g_{+1})$, and for 4 values of $\tau$ . The triplets are plotted in the trilinear coordinate system.
+##### Softmax Gumbel function 
 
 ![](ternarychanges_softmaxgumbel.png)
 
