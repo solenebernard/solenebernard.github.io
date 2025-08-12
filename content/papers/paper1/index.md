@@ -39,7 +39,7 @@ This paper proposes an algorithm which allows Alice to simulate the game played 
 
 ---
 
-## Backpack: Back-propagatable attack
+## Backpack: BACKPropagable attACK
 
 ##### Figure X: Figure caption
 
