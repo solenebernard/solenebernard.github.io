@@ -34,9 +34,9 @@ A minmax protocol offers a general method to automatically optimize steganograph
 ## Differentiable steganography
 
 The idea we propose is to optimize the cost $\rho$ w.r.t. the detectability of a detector $f$ by a standard optimization. We will use gradient descent on the costs in order to decrease
-$f(y)$. In the usual gradient descent setting, we need to compute the gradient $\nabla_{\boldsymbol{\rho}} \mathbb{E}[f(\mathbf{y})]$, and for a given  $\rho$, we would update it by the following formula
+$f(y)$. In the usual gradient descent setting, we need to compute the gradient $\nabla_{\boldsymbol{\rho}} \mathbb{E}[f(\mathbf{y})]$, and for a given  $\boldsymbol{\rho}$, we would update it by the following formula
 
-$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho}-\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. \mid \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})]$$
+$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}_{\mathbf{b} ~ P_{\mathbf{b}}(. \mid \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})]$$
 
 
 ### Softmax Gumbel
@@ -76,7 +76,7 @@ See on the Figure below the different function $b_{\tau}$ for different $\tau$. 
 
 ## Backpack: BACKPropagable attACK
 
-
+![](pe_protocol.png)
 
 ---
 
@@ -99,7 +99,6 @@ Solène Bernard, Patrick Bas, John Klein, Tomas Pevny. 2022. "Backpack: A Backpr
 
 ## Results
 
-For example the error probability $P_{err}$ of SRNet on detecting stego images with payload of 0.4 bpnzAC embedded by J-Uniward and QF 75 starts at 7.1\% and is increased by +13.6\% to reach 20.7\% after eight iterations. For the same embedding rate and for QF 95, undetectability by XU-Net with J-Uniward embedding is 23.4\%, and it jumps by +25.8\% to reach 49.2\% at iteration 3.
 
 <!-- 
 ---
