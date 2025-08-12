@@ -10,8 +10,8 @@ cover:
     alt: "Sequential game between steganography and steganalysis"
     relative: false
 editPost:
-    URL: "https://doi.org/10.1257/aer.102.4.1721"
-    Text: "Journal Name"
+    URL: "https://hal.science/hal-03208143/document"
+    Text: "IEEE Transactions on Information Forensics and Security"
 
 ---
 
@@ -19,9 +19,9 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/job-rationing)
++ [Paper](backpack.pdf)
+<!-- + [Online appendix](appendix1.pdf) -->
++ [Code and data](https://gitlab.univ-lille.fr/solene.bernard/backpack)
 
 ---
 
