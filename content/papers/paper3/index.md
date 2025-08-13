@@ -7,7 +7,7 @@ description: "Published in IEEE Transactions on Information Forensics and Securi
 summary: "How to improve sequentially steganography and steganalysis." 
 cover:
     image: "pipelinecoststego.png"
-    alt: "Sequential game between steganography and steganalysis"
+    alt: "Improving steganography in a minmax protocol by creating a differentiable version of the embedding as an adversarial attack."
     relative: false
 editPost:
     URL: "https://ieeexplore.ieee.org/document/9891839"
@@ -32,9 +32,8 @@ A minmax protocol offers a general method to automatically optimize steganograph
 ---
 ### Context
 
-In a scheme of steganography research, a common usage is to simulate the pertubation applied to a natural cover image  $\mathbf{x}$ if we embed a message of size $|m|$ and embed by minimizing the cost map $\mathbf{\rho}$. Indeed, the perfect embedding of the message is simulated  by sampling $\mathbf{b}$ according to a probability law $\mathbf{\pi}$ depending on $\mathbf{\rho}$. The common pipeline in the following:
+In a scheme of steganography research, a common usage is to simulate the pertubation applied to a natural cover image  $\mathbf{x}$ if we embed a message of size $|m|$ while minimizing the cost map $\mathbf{\rho}$ (via the STC algorithm). Indeed, the perfect embedding of the message is simulated  by sampling $\mathbf{b}$ according to a probability law $\boldsymbol{\pi}$ depending on $\boldsymbol{\rho}$. The common pipeline in the following:
 ![](pipelinecoststego.png)
-
 
 
 ## Differentiable steganography
