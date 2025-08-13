@@ -46,6 +46,7 @@ $$\mathbb{E}$$
 
 $$\sim P_{\mathbf{b}}( \boldsymbol{\rho}, \lambda)$$
 
+$$P( \boldsymbol{\rho}, \lambda)$$
 
 $$\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)$$
 
