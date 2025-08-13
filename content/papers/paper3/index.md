@@ -84,12 +84,13 @@ See on the Figure below the different function $b_{\tau}$ for different $\tau$. 
 
 ### Backpropagation
 
+Now it's possible to backpropagate, with $\tau>0$ through the pipeline introduced in the beggining:
 ![](pipelineback.png)
 
 
-#### Pseudo code for the proposed procedure
+<!-- #### Pseudo code for the proposed procedure
 
-![](pseudocode.png)
+![](pseudocode.png) -->
 
 <!-- ---
 
