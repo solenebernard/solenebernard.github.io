@@ -7,7 +7,7 @@ description: "Linocut animation"
 summary: "First attempts of designs to be printed as temporary tattoos! Done on Procreate." 
 cover:
     image: "presentation.png"
-    alt: "Time in a bottle"
+    alt: "Tatoo doodling"
     relative: false
 showToc: true
 disableAnchoredHeadings: false
@@ -16,13 +16,4 @@ disableAnchoredHeadings: false
 
 ---
 
-
-<video src="care.mov" controls></video>
-
-![](image1.jpeg)
-
-![](image2.jpeg)
-
-![](image3.jpeg)
-
-![](image4.jpeg)
+![](Tatoo_Doodling_Print.png)
