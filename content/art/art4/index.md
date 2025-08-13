@@ -1,5 +1,5 @@
 ---
-title: "Flash tattoos"
+title: "Temporary tattoos - Doodling"
 date: 2022-12-01
 tags: ["Procreate","Drawing", "Doodling"]
 author: "Solène Bernard"

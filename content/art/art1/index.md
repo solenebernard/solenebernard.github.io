@@ -1,5 +1,5 @@
 ---
-title: "Creating some funny tattoos"
+title: "Temporary tattoos - Spring edition"
 date: 2023-12-01
 tags: ["Procreate","Drawing"]
 author: "Solène Bernard"
