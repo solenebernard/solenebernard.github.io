@@ -42,6 +42,9 @@ $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}
 
 $$\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)}$$
 
+$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla$$
+
+$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha$$
 
 ### Softmax Gumbel
 Calculating the gradient of the expectation of a discrete probability distribution with respect to its parameters is a very well-studied problem. From the vast prior art, we have chosen the method relying on the Gumbel distribution. This technique has the advantage
