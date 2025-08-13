@@ -38,9 +38,14 @@ $f(y)$. In the usual gradient descent setting, we need to compute the gradient $
 
 $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})]$$
 
+
+$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}_{\mathbf{b}}[f(\mathbf{x}+\mathbf{b})]$$
+
 $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)}$$
 
 $$\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)}$$
+
+$$\alpha \nabla_\rho \mathbb{E}_{\mathbf{b}}$$
 
 $$\mathbb{E}$$
 
