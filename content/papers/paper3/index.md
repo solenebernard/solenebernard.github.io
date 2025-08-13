@@ -6,7 +6,7 @@ author: "Solène Bernard, Patrick Bas, John Klein, Tomas Pevny"
 description: "Published in IEEE Transactions on Information Forensics and Security, 2022." 
 summary: "How to improve sequentially steganography and steganalysis." 
 cover:
-    image: "cat_and_mouse.png"
+    image: "pipelinecoststego.png"
     alt: "Sequential game between steganography and steganalysis"
     relative: false
 editPost:
@@ -30,6 +30,12 @@ editPost:
 A minmax protocol offers a general method to automatically optimize steganographic algorithm against a wide class of steganalytic detectors. The quality of the resulting steganograhic algorithm depends on the ability to find an “adversarial” stego image undetectable by a set of detectors while communicating a given message. Despite minmax protocol instantiated with ADV-EMB scheme leading to unexpectedly good results, we show it suffers a significant flaw and we present a theoretically sound solution called Backpack. Extensive experimental verification of minmax protocol with Backpack shows superior performance to ADV-EMB, the generality of the tool by targeting a new JPEG QF100 compatibility attack and further improves the security of steganographic algorithms.
 
 ---
+### Context
+
+In a scheme of steganography research, a common usage is to simulate the pertubation applied to a natural cover image  $\mathbf{x}$ if we embed a message of size $|m|$ and embed by minimizing the cost map $\mathbf{\rho}$. Indeed, the perfect embedding of the message is simulated  by sampling $\mathbf{b}$ according to a probability law $\mathbf{\pi}$ depending on $\mathbf{\rho}$. The common pipeline in the following:
+![](pipelinecoststego.png)
+
+
 
 ## Differentiable steganography
 
@@ -74,6 +80,12 @@ See on the Figure below the different function $b_{\tau}$ for different $\tau$. 
 
 ##### Softmax Gumbel function 
 ![](ternarychanges_softmaxgumbel.png)
+
+
+### Backpropagation
+
+![](pipelineback.png)
+
 
 #### Pseudo code for the proposed procedure
 
