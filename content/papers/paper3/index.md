@@ -87,6 +87,18 @@ See on the Figure below the different function $b_{\tau}$ for different $\tau$. 
 Now it's possible to backpropagate, with $\tau>0$ through the pipeline introduced in the beggining:
 ![](pipelineback.png)
 
+## Results
+
+For each attack (ADV-EMB and Backpack), we ran the protocol for 7 iterations with $F = {XuNet}$ with images at QF 75 and payload 0.4 bpnzAC. At each iteration, the $P_{err}$ of three other blind steganalysts (SrNet, classifiers based on DCTR and GFR features) are reported in the Figure below, and the final values are in the table below.
+
+![](table.png)
+
+We observe that the proposed Backpack method outperforms ADV-EMB. Starting from a $P_{err}$ of $7.5%$ on costs obtained from J-Uniward, a XuNet steganalyzer trained after seven iterations with Backpack achieves a $P_{err}$ of $47.6%$ while
+it achieves $22%$ using ADV-EMB.
+
+![](pe_protocol_comparison_75.png)
+
+
 
 <!-- #### Pseudo code for the proposed procedure
 
