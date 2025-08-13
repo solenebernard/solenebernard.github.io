@@ -16,13 +16,18 @@ disableAnchoredHeadings: false
 
 ---
 
+After I carved four linocuts, I printed it on an old music training book found in an op shop. Here the final result.
 
-<video src="animation.MP4" controls></video>
+<video src="animation.MP4" controls width="800"></video>
 
-![](image1.jpeg)
-
-![](image2.jpeg)
+Pictures of the process:
 
 ![](image3.jpeg)
 
+![](image1.jpeg)
+
 ![](image4.jpeg)
+
+![](image2.jpeg)
+
+
