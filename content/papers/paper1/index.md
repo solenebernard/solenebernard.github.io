@@ -19,15 +19,16 @@ editPost:
 
 ##### Download
 
-+ [Paper](backpack.pdf)
++ [Paper](paper.pdf)
 <!-- + [Online appendix](appendix1.pdf) -->
-+ [Code and data](https://gitlab.univ-lille.fr/solene.bernard/backpack)
+<!-- + [Code and data](https://gitlab.univ-lille.fr/solene.bernard/backpack) -->
 
 ---
 
 ##### Abstract
 
 This paper proposes an algorithm which allows Alice to simulate the game played between her and Eve. Under the condition that the set of detectors that Alice assumes Eve to have is sufficiently rich (e.g. CNNs), and that she has an algorithm enabling to avoid detection by a single classifier (e.g adversarial embedding, gibbs sampler, dynamic STCs), the proposed algorithm converges to an efficient steganographic algorithm. This is possible by using a $\min\max$ strategy which consists at each iteration in selecting the least detectable stego image for the best classifier among the set of Eve's learned classifiers. The algorithm is extensively evaluated and compared to prior arts and results show the potential to increase the practical security of classical steganographic methods. 
+
 ---
 
 ## Min-max iterative protocol
@@ -35,15 +36,6 @@ This paper proposes an algorithm which allows Alice to simulate the game played 
 #### Pseudo code for the proposed procedure
 
 ![](pseudocode.png)
-
----
-
-## Backpack: BACKPropagable attACK
-
-##### Figure X: Figure caption
-
-![](ternarychanges_softmaxgumbel.png)
-
 
 ---
 
