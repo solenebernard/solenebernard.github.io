@@ -1,6 +1,6 @@
 ---
 title: "Temporary tattoos - Spring edition"
-date: 2023-12-01
+date: 2023-04-01
 tags: ["Procreate","Drawing"]
 author: "Solène Bernard"
 description: "Creating funny tattoos!" 
@@ -28,6 +28,7 @@ For housewarming party, january 2023.
 
 For spring party, april 2023.
 ![](Tatoo_Spring.png)
+
 <!-- 
 ## B&W tattoo
 
