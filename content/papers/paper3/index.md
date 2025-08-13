@@ -36,7 +36,7 @@ A minmax protocol offers a general method to automatically optimize steganograph
 The idea we propose is to optimize the cost $\rho$ w.r.t. the detectability of a detector $f$ by a standard optimization. We will use gradient descent on the costs in order to decrease
 $f(y)$. In the usual gradient descent setting, we need to compute the gradient $\nabla_{\boldsymbol{\rho}} \mathbb{E}[f(\mathbf{y})]$, and for a given  $\boldsymbol{\rho}$, we would update it by the following formula
 
-$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}_{\mathbf{b} ~ P_{\mathbf{b}}(. \mid \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})]$$
+$$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)}[f(\mathbf{x}+\mathbf{b})]$$
 
 
 ### Softmax Gumbel
@@ -58,7 +58,7 @@ where the $1$ is on $\arg\max_i v^i$ position and $\tau$ is a temperature parame
 
 Replacing arg max in Equation by a softmax approximation with temperature leads to 
 
-$$\tilde{b}_\tau = SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j \text { with } \boldsymbol{\nu}=\operatorname{softmax}(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau})$$
+$$\tilde{b}_\tau = SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
 
 The gradient of the continuous modification $\tilde{b}_\tau$ w.r.t. $\pi$ are
 easy to compute and have non-zero values. It can be conveniently plugged in the chain rule although the resulting gradient is biased when $\tau > 0$. Figure below offers a visualization of the influence of $tau$ on the output of the Softmax-Gumbel (SG) function, for a fixed realization of a random vector g and fixed probability vector $\pi$.
