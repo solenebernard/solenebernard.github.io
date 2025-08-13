@@ -58,7 +58,7 @@ where the $1$ is on $\arg\max_i v^i$ position and $\tau$ is a temperature parame
 
 Replacing arg max in Equation by a softmax approximation with temperature leads to 
 
-$$\tilde{b}_\tau=SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j \text { with } \boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
+$$\tilde{b}_\tau = SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}} j \nu^j \text { with } \boldsymbol{\nu}=softmax\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
 
 The gradient of the continuous modification $\tilde{b}_\tau$ w.r.t. $\pi$ are
 easy to compute and have non-zero values. It can be conveniently plugged in the chain rule although the resulting gradient is biased when $\tau > 0$. Figure below offers a visualization of the influence of $tau$ on the output of the Softmax-Gumbel (SG) function, for a fixed realization of a random vector g and fixed probability vector $\pi$.
