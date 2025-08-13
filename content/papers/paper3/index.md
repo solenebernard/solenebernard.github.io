@@ -19,7 +19,7 @@ editPost:
 
 ##### Download
 
-+ [Paper](backpack.pdf)
++ [Paper](paper.pdf)
 <!-- + [Online appendix](appendix1.pdf) -->
 + [Code and data](https://gitlab.univ-lille.fr/solene.bernard/backpack)
 
