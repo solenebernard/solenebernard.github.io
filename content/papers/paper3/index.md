@@ -64,6 +64,12 @@ $$\tilde{b}_\tau = SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j \in \mathcal{B}
 
 $$\tilde{b}_\tau = SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j} j \nu^j$$
 
+$$b_tau = SG_\tau(\boldsymbol{\pi}, \mathbf{g})=\sum_{j} j \nu^j$$
+
+$$b_tau = SG_\tau(\pi, \mathbf{g})=\sum_{j} j \nu^j$$
+
+$$b_tau = SG_\tau(\pi, g)=\sum_{j} j \nu^j$$
+
 with 
 
 $$\boldsymbol{\nu}=\operatorname{softmax}\left(\frac{\mathbf{g}+\log \boldsymbol{\pi}}{\tau}\right)$$
