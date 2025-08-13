@@ -1,5 +1,5 @@
 ---
-title: "Linocut"
+title: "Care ~ A linocut printed animation"
 date: 2024-04-13
 tags: ["Procreate","Drawing", "Animation"]
 author: "Solène Bernard"
@@ -17,7 +17,7 @@ disableAnchoredHeadings: false
 ---
 
 
-<video src="care.mov" controls></video>
+<video src="animation.MP4" controls></video>
 
 ![](image1.jpeg)
 
