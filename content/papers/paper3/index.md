@@ -42,6 +42,13 @@ $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla_\rho \mathbb{E}
 
 $$\alpha \nabla_\rho \mathbb{E}_{\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)}$$
 
+$$\mathbb{E}$$
+
+$$\sim P_{\mathbf{b}}( \boldsymbol{\rho}, \lambda)$$
+
+
+$$\mathbf{b} \sim P_{\mathbf{b}}(. | \boldsymbol{\rho}, \lambda)$$
+
 $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha \nabla$$
 
 $$\boldsymbol{\rho} \leftarrow \boldsymbol{\rho} - \alpha$$
