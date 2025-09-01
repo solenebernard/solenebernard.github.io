@@ -4,7 +4,7 @@ date: 2025-07-15
 tags: ["hearing","theory", "frequency", "Fourier", "cochlea"]
 author: ["Solène Bernard"]
 description: "" 
-summary: "Using RATP open data for live visualisation." 
+summary: "Using RATP open data for live visualisation  (*in progress*)" 
 cover:
     image: "presentation.png"
     alt: "sound signal"
